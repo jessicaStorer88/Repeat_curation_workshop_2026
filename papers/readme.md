@@ -5,7 +5,3 @@
 * Flynn JM, Hubley R, Goubert C, Rosen J, Clark AG, Feschotte C, & Smit AF (2020). RepeatModeler2 for automated genomic discovery of transposable element families. Proceedings of the National Academy of Sciences of the United States of America, 117(17), 9451–9457. https://doi.org/10.1073/pnas.1921046117
 
   https://pmc.ncbi.nlm.nih.gov/articles/PMC7196820/pdf/pnas.201921046.pdf 
-
-* RepeatMasker
-
-  https://github.com/Dfam-consortium/RepeatMasker/blob/master/repeatmasker.help
