@@ -2,7 +2,7 @@
 
 This GitHub repository is dedicated to materials related to the workshop: 
 
-![Curating transposable element libraries for non-model organisms and assembling through the hard stuff](https://cba.anu.edu.au/news-events/events/curating-transposable-element-libraries-non-model-organisms-and-assembling)
+[Curating transposable element libraries for non-model organisms and assembling through the hard stuff](https://cba.anu.edu.au/news-events/events/curating-transposable-element-libraries-non-model-organisms-and-assembling)
 
 - Occurring: 
   - 17 Nov 2026 9:30am - 18 Nov 2026 4:00pm
