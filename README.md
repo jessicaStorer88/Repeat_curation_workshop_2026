@@ -5,6 +5,8 @@ This GitHub repository is dedicated to materials related to the repeat curation 
 * Utilities
   - rmblastn.pl
   - alignAndCallConsensus.pl
+  - AutoRunBlocker.pl
+  - generateSeedAlignments.pl
     
 ## RepeatMasker
 * Utilities
