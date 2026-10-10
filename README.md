@@ -8,7 +8,7 @@ This GitHub repository is dedicated to materials related to the workshop:
   - 17 Nov 2026 9:30am - 18 Nov 2026 4:00pm
 - In person
 - Location:
-  - Jan Anderson Seminar Room, ground floor, Research School of Biology, Australian National University, Canberra.
+  - Jan Anderson Seminar Room (ground floor), Research School of Biology, Australian National University, Canberra.
 
 ### Repeat Pipeline
 <div align="justify">
