@@ -23,17 +23,23 @@ Subsequent steps include generating a stockholm (.stk) file and extension via Re
 2. Generate .stk (Stockholm alignment file) of each of the models
 3. Extend models using RepeatAfterMe (RAM)
 
-## RepeatModeler2
+## Programs
+
+### UCSC tools
+- faToTwoBit
+- twoBitInfo
+
+### RepeatModeler2
 * Utilities
   - rmblastn.pl
   - alignAndCallConsensus.pl
   - AutoRunBlocker.pl
   - generateSeedAlignments.pl
     
-## RepeatMasker
+### RepeatMasker
 * Utilities
   - buildSummary.pl
   - calcDivergenceFromAlign.pl
   - createRepeatLandscape.pl
 
-## RepeatAfterMe
+### RepeatAfterMe
