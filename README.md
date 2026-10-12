@@ -29,9 +29,22 @@ Subsequent steps include generating a stockholm (.stk) file and extension via Re
 
 ## Programs
 
+Below are the programs we will discuss as part of the workshop. For each program there is a short description as well as how it would be run on the command line.
+
 ### UCSC tools
+The University of California, Santa Cruz (UCSC) has built a set of utilities for handling sequences and assemblies. The two programs are:
 - faToTwoBit
 - twoBitInfo
+
+faToTwoBit converts a fasta file to a 2bit genome. While fasta files are a human-readable, plain-text format the 2bit format is a compact, binary-encoded format developed by the UCSC Genome Browser that encodes each DNA base using just 2 bits, vs 8 bits per character utilized by the fasta text format, cutting file size down by about 75%.
+
+```
+faToTwoBit <genome.fa> <genome.2bit> 
+```
+
+<genome.2bit> is a user-specified name.
+
+twoBitInfo is used internally 
 
 ### RepeatModeler2
 * Utilities
