@@ -29,7 +29,7 @@ This GitHub repository is dedicated to materials related to the workshop:
 
 <div id="figure-1">
 <p align="center">
-<img src="resources/img/TE_curation_method_comparison.png" alt="Figure 1" width="900">
+<img src="resources/img/TE_curation_method_comparison_v2.png" alt="Figure 1" width="900">
 </p>
 </div>
 <b>Figure 1. TE curation method comparison</b> 
