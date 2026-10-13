@@ -13,9 +13,9 @@ This GitHub repository is dedicated to materials related to the workshop:
 ## Table of Contents
 - [Repeat discovery pipeline](#Repeat-Pipeline) 
 - [Programs](#Programs) 
-- [UCSC tools](#UCSC-tools)
-- [RepeatModeler2](#RepeatModeler2)
-- [RepeatMasker](#RepeatMasker)
+  - [UCSC tools](#UCSC-tools)
+  - [RepeatModeler2](#RepeatModeler2)
+  - [RepeatMasker](#RepeatMasker)
 
 ### Repeat Pipeline
 <div align="justify">
