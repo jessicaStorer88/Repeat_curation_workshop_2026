@@ -28,6 +28,7 @@ This GitHub repository is dedicated to materials related to the workshop:
 <p align="center">
 <img src="resources/img/TE_curation_method_comparison.png" alt="Figure 1" width="900">
 </p>
+</div>
 <a href="#figure-1">Jump to Figure 1</a>
 <b>Figure 1. TE curation method comparison</b> 
 
