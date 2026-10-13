@@ -76,7 +76,11 @@ faToTwoBit <genome.fa> <genome.2bit>
 
 <genome.2bit> is a user-specified name.
 
-twoBitInfo is used internally 
+twoBitInfo is used internally by <b>list programs here</b>, but can also be used on the command line:
+```
+twoBitInfo <genome.2bit> <genome.info> 
+```
+<genome.info> is a user-specified name, and is a plain text file that includes chromosome names and sizes. 
 
 ### RepeatModeler2
 * Utilities
