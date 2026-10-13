@@ -23,16 +23,9 @@ This GitHub repository is dedicated to materials related to the workshop:
 
 ![](resources/img/TE_curation_method_comparison.png)
 
-For any of the pipelines, it is crucial to compare the models to existing libraries (if available) to reduce redundancy where possible.  
-  
-Subsequent steps include generating a stockholm (.stk) file and extension via RepeatAfterMe (RAM)..</p>
-</div>
-
-1. Run RepeatMasker with curated library of a closely-related species
-2. Generate .stk (Stockholm alignment file) of each of the models
-3. Extend models using RepeatAfterMe (RAM)
-
 ![](resources/img/TE_curation_workflow.png)
+
+![](resources/img/te_curation_workflow.png)
 
 ## Programs
 
