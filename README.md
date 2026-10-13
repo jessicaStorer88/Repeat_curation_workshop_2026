@@ -84,6 +84,7 @@ twoBitInfo <genome.2bit> <genome.info>
 
 ### RepeatModeler2
 * Utilities
+  - Linup
   - rmblastn.pl
   - alignAndCallConsensus.pl
   - AutoRunBlocker.pl
