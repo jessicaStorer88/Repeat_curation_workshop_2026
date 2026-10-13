@@ -116,7 +116,7 @@ rmblast.pl <model-extended.con.fa> <model-extended.con.fa>
   - ```-ms``` to filter out low scoring regions
   - ```-a``` to print out the alignment(s)
 
-- ```AutoRunBlocker.pl``` - Due to the nature of aligning instances that vary in divergence, there is occasionally evidence of insertions or deletions within the called consensus. In order to assess if those variants are part of the consensus, this tool identifies gaps or regions of lower similarity. It analyzes the consensus sequences and instances in windows to correct for these low confidence regions.
+* ```AutoRunBlocker.pl``` - Due to the nature of aligning instances that vary in divergence, there is occasionally evidence of insertions or deletions within the called consensus. In order to assess if those variants are part of the consensus, this tool identifies gaps or regions of lower similarity. It analyzes the consensus sequences and instances in windows to correct for these low confidence regions.
 ```
 AutoRunBlocker.pl -l <model>.ali -w <window size> -mc 50 -p -mr 0.3
 ```
