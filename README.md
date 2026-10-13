@@ -14,7 +14,7 @@ This GitHub repository is dedicated to materials related to the workshop:
 - [Repeat discovery pipeline](#Repeat-Pipeline)
   - [Figure 1: TE curation method comparison](#figure-1)
   - [Figure 2: TE pipeline from discovery to curation](#figure-2)
-  - [Detailed curation steps](#Figure-3.-Detailed-TE-curation-workflow)
+  - [Figure 3: Detailed curation steps](#figure-3)
 - [Programs](#Programs) 
   - [UCSC tools](#UCSC-tools)
   - [RepeatModeler2](#RepeatModeler2)
@@ -42,10 +42,12 @@ The general curation process that will be discussed in this workshop includes: r
 <b>Figure 2. TE workflow from discovery to curation</b>
 </p>
 
+<div id="figure-3">
 <p align="center">
 <img src="resources/img/te_curation_workflow.png" width="500">
 </p>
-<p align="center">
+</div>
+
 <p align="center">
 <b>Figure 3. Detailed TE curation workflow</b>
 </p>
