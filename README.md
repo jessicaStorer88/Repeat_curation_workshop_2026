@@ -11,7 +11,10 @@ This GitHub repository is dedicated to materials related to the workshop:
   - Jan Anderson Seminar Room (ground floor), Research School of Biology, Australian National University, Canberra.
 
 ## Table of Contents
-- [Repeat discovery pipeline](#Repeat-Pipeline) 
+- [Repeat discovery pipeline](#Repeat-Pipeline)
+  - [TE curation method comparison](#Figure-1.-TE-curation-method-comparison)
+  - [TE pipeline from discovery to curation](#Figure-2.-TE-workflow-from-discovery-to-curation)
+  - [Detailed curation steps](#Figure-3.-Detailed-TE-curation-workflow)
 - [Programs](#Programs) 
   - [UCSC tools](#UCSC-tools)
   - [RepeatModeler2](#RepeatModeler2)
