@@ -32,7 +32,9 @@ This GitHub repository is dedicated to materials related to the workshop:
 <img src="resources/img/TE_curation_method_comparison_v2.png" alt="Figure 1" width="900">
 </p>
 </div>
+<p align="center">
 <b>Figure 1. TE curation method comparison</b> 
+</p>
 
 The general curation process that will be discussed in this workshop includes: repeat discovery (<i>de novo</i> <b>Figure 1</b>), collecting TE instances/copies, generating a seed alignment, extending the putative models, ending with curation (<b>Figure 2</b>).
 
@@ -41,6 +43,7 @@ The general curation process that will be discussed in this workshop includes: r
 <img src="resources/img/TE_general_workflow.png" width="500">
 </p>
 </div>
+
 <p align="center">
 <b>Figure 2. TE workflow from discovery to curation</b>
 </p>
