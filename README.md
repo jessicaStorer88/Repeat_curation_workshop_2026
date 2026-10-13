@@ -85,7 +85,7 @@ twoBitInfo <genome.2bit> <genome.info>
 ### RepeatModeler2
 * Utilities
 
- * ```generateSeedAlignments.pl``` - uses ```<model>.align``` files to build seed alignments. Seed alignments are multiple sequence alignments of TE copies that are categorized by the same model. This program is essential for generating the stockholm files necessary for downstream processes like Linup which are used to isolate the instances of this TE family. 
+* ```generateSeedAlignments.pl``` - uses ```<model>.align``` files to build seed alignments. Seed alignments are multiple sequence alignments of TE copies that are categorized by the same model. This program is essential for generating the stockholm files necessary for downstream processes like Linup which are used to isolate the instances of this TE family. 
 ```
 generateSeedAlignments.pl -taxon ${taxon} -assemblyFile ${assemblyFile.2bit} ${alignFile.align}
 ```
@@ -100,15 +100,14 @@ Linup ${infile.stk} -fasta > ${prefix}.elements.fa
 ```
 alignAndCallConsensus.pl -c <model-extended.con.fa> -e <model-extended_rename.elements.fa> -ma 14 -ht -re
 ```
-
-  - ```-c``` = consensus file
-  - ```-e``` = elements file
-  - ```-ma``` is the matrix value, the higher the matrix value the more divergence you are allowing for
-    - can choose from these values: ```14,18,20,25```
-  - ```-ht```  creates an html file for easier visualization of the models and instances 
-  - ```-re``` tells the tool to iterate, default is 5 iterations but an integer can be specified for more or less iterations  
-  - a useful command might be ```-ms``` which stands for minimum score, if there are a lot of alignments with low scores they may interfere with the contiguity of the aligned models 
-    - in order to tell this tool to extend, H-pads need to be added - if extension is warranted at **BOTH* 5' and 3' end, ```-hp```  can be used which adds a user-specified number of H's to both ends of the consensus 
+  + ```-c``` = consensus file
+  + ```-e``` = elements file
+  + ```-ma``` is the matrix value, the higher the matrix value the more divergence you are allowing for
+    can choose from these values: ```14,18,20,25```
+  ```-ht```  creates an html file for easier visualization of the models and instances 
+  ```-re``` tells the tool to iterate, default is 5 iterations but an integer can be specified for more or less iterations  
+  a useful command might be ```-ms``` which stands for minimum score, if there are a lot of alignments with low scores they may interfere with the contiguity of the aligned models 
+  in order to tell this tool to extend, H-pads need to be added - if extension is warranted at **BOTH* 5' and 3' end, ```-hp```  can be used which adds a user-specified number of H's to both ends of the consensus 
 
 - ```rmblast.pl``` - RepeatMasker's version of NCBI-BLAST paired with cross_match sensitivity. It leverages scoring logic from cross_match to reflect the complexity and accuracy of target sequences. It is used to identify similar repeat sequences in the genome and can be used to compare repeat models to existing curated libraries.
 ```
