@@ -8,7 +8,7 @@ The University of California, Santa Cruz (UCSC) has built a set of utilities for
 ```
 faToTwoBit <genome.fa> <genome.2bit> 
 ```
-<genome.2bit> is a user-specified name.
+```<genome.2bit>``` is a user-specified name.
 
 <br>
 <br>
@@ -17,4 +17,4 @@ faToTwoBit <genome.fa> <genome.2bit>
 ```
 twoBitInfo <genome.2bit> <genome.info> 
 ```
-<genome.info> is a user-specified name, and is a plain text file that includes chromosome names and sizes. 
+```<genome.info>``` is a user-specified name, and is a plain text file that includes chromosome names and sizes. 
