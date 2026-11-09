@@ -1,5 +1,5 @@
 ### Pipeline
-Below is the series of steps needed to prepare your own repeat library for curation. Within each file is a script and description of the commands. 
+Below is the series of steps needed to prepare your own repeat library for curation. Within each file is a script and description of the commands. For this workshop, the fire ant is used as an example. 
 1. De novo repeat discovery
 2. Collect more copies
 3. Generate seed alignments
