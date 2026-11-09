@@ -1,5 +1,6 @@
 * Storer JM, Hubley R, Rosen J, & Smit AFA (2022). "Methodologies for the De novo Discovery of Transposable Element Families". <i>Genes</i>, 13(4), 709. https://doi.org/10.3390/genes13040709
 
+  https://www.mdpi.com/2073-4425/13/4/709
 
 * Storer JM, Hubley R, Rosen J, Smit AFA (2021) "Curation guidelines for de novo generated transposable element families" <i>Current Protocols</i>. 2021. https://doi.org/10.1002/cpz1.154
 
