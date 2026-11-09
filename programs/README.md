@@ -4,6 +4,7 @@
   - [UCSC tools](#UCSC-tools)
   - [RepeatModeler2](#RepeatModeler2)
   - [RepeatMasker](#RepeatMasker)
+  - [RepeatAfterMe](#RepeatAfterMe)
 
 
 ## Programs
