@@ -1,10 +1,18 @@
-* Storer JM, Hubley R, Rosen J, & Smit AFA (2022). "Methodologies for the De novo Discovery of Transposable Element Families". <i>Genes</i>, 13(4), 709. https://doi.org/10.3390/genes13040709
+* Wells JN & Feschotte C (2020). "A Field Guide to Eukaryotic Transposable Elements". <i>Annual Review of Genetics</i>, 54:539-561. https://doi.org/10.1146/annurev-genet-040620-022145
 
-  https://www.mdpi.com/2073-4425/13/4/709
+  https://www.annualreviews.org/content/journals/10.1146/annurev-genet-040620-022145
 
 * Storer JM, Hubley R, Rosen J, Smit AFA (2021) "Curation guidelines for de novo generated transposable element families" <i>Current Protocols</i>. 2021. https://doi.org/10.1002/cpz1.154
 
   https://dfam.org/assets/publications/2021-Current_Protocols-Curation_guidelines.pdf
+    
+* Goubert C, Craig R.J., Bilat A.F., Peona V, Vogan A.A., Protasio A.V. (2022). "A beginner’s guide to manual curation of transposable elements". <i>Mobile DNA</i> 13, 7. https://doi.org/10.1186/s13100-021-00259-7
+
+  https://link.springer.com/article/10.1186/s13100-021-00259-7#citeas
+
+* Storer JM, Hubley R, Rosen J, & Smit AFA (2022). "Methodologies for the De novo Discovery of Transposable Element Families". <i>Genes</i>, 13(4), 709. https://doi.org/10.3390/genes13040709
+
+  https://www.mdpi.com/2073-4425/13/4/709
 
 * Flynn JM, Hubley R, Goubert C, Rosen J, Clark AG, Feschotte C, & Smit AF (2020). RepeatModeler2 for automated genomic discovery of transposable element families. <i>Proceedings of the National Academy of Sciences of the United States of America</i>, 117(17), 9451–9457. https://doi.org/10.1073/pnas.1921046117
 
