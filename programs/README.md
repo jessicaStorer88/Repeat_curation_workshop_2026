@@ -1,3 +1,11 @@
+# Table of contents
+
+- [Programs](#Programs) 
+  - [UCSC tools](#UCSC-tools)
+  - [RepeatModeler2](#RepeatModeler2)
+  - [RepeatMasker](#RepeatMasker)
+
+
 ## Programs
 
 Below are the programs we will discuss as part of the workshop. For each program there is a short description as well as how it would be run on the command line.

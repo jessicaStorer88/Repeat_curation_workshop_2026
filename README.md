@@ -17,23 +17,20 @@ This GitHub repository is dedicated to materials related to the workshop:
 ## Table of Contents
 
 - [Workshop agenda](#Workshop-Agenda)
-- [Repeat discovery pipeline](#Repeat-Pipeline)
-  - [Figure 1: TE curation method comparison](#figure-1)
-  - [Figure 2: TE pipeline from discovery to curation](#figure-2)
-  - [Figure 3: Detailed curation steps](#figure-3)
-- [Programs](#Programs) 
-  - [UCSC tools](#UCSC-tools)
-  - [RepeatModeler2](#RepeatModeler2)
-  - [RepeatMasker](#RepeatMasker)
-
 
 ## Workshop Agenda
+
+## Funding
 
 ## Organizers
 
 - Rachel O'Neill 
 - Jessica M. Storer ()
-  - Research associate. Institute for Systems Genomics. University of Connecticut, Storrs, CT, USA.
+  - Associate Research Scientist. Institute for Systems Genomics. University of Connecticut, Storrs, CT, USA.
 - Merly Escalona (merly(dot)escalona(at)uconn(dot)com)
   - Research associate. Institute for Systems Genomics. University of Connecticut, Storrs, CT, USA.
 - Magda Kmiecik ()
+  - Graduate Student.  Institute for Systems Genomics. University of Connecticut, Storrs, CT, USA.
+
+
+ 
