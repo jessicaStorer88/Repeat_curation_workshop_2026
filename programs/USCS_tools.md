@@ -1,4 +1,4 @@
-### UCSC tools
+## UCSC tools
 The University of California, Santa Cruz (UCSC) has built a set of utilities for handling sequences and assemblies. The two programs are:
 - faToTwoBit
 - twoBitInfo
@@ -8,9 +8,9 @@ The University of California, Santa Cruz (UCSC) has built a set of utilities for
 ```
 faToTwoBit <genome.fa> <genome.2bit> 
 ```
-
 <genome.2bit> is a user-specified name.
 
+<br>
 <br>
 
 ```twoBitInfo``` is used internally by <b>list programs here</b>, but can also be used on the command line:
