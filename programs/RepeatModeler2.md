@@ -1,7 +1,27 @@
 ## RepeatModeler2
 
+During a time when it was computationally intractable to run all-by-all genome comparisons for <i>de novo</I> repeat identification, RepeatModeler was developed. Leveraging the interspersed and repetitive nature of transposable elements, RepeatModeler2 samples a portion of the genome in successive rounds to avoid re-discovery. 
 
+Running RepeatModeler2 is a two step process:
+
+#### Step 1: build the database
+```
+BuildDatabase -name $DB $GENOME
+```
+ 
+#### Step 2: run RepeatModeler (-LTRStruct adds the LTR structural pipeline)
+```
+RepeatModeler -database $DB -threads 16 -LTRStruct
+```
 ### Utilities
+
+In addition to the main program described above, there are a plethora of utilities available to aid in TE curation, including:
+- Generate alignments from RepeatMasker output
+- Visualize models
+- Extend and polish putative models
+- Reformat inputs and outputs
+
+The main utilities that will be used in this workshop are described below.
 
 ```generateSeedAlignments.pl``` - uses ```<model>.align``` files to build seed alignments. Seed alignments are multiple sequence alignments of TE copies that are categorized by the same model. This program is essential for generating the stockholm files necessary for downstream processes like Linup which are used to isolate the instances of this TE family. 
 ```
