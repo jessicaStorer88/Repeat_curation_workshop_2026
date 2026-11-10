@@ -33,7 +33,7 @@ This GitHub repository is dedicated to materials related to the workshop:
 - Jessica M. Storer (Jessica(dot)storer(at)uconn(dot)edu)
   - Associate Research Scientist. Institute for Systems Genomics. University of Connecticut, Storrs, CT, USA.
 - Merly Escalona (merly(dot)escalona(at)uconn(dot)com)
-  - Research associate. Institute for Systems Genomics. University of Connecticut, Storrs, CT, USA.
+  - Research Associate. Institute for Systems Genomics. University of Connecticut, Storrs, CT, USA.
 - Magda Kmiecik (magda(dot)kmiecik(at)uconn(dot)edu)
   - Graduate Student.  Institute for Systems Genomics. University of Connecticut, Storrs, CT, USA.
 
