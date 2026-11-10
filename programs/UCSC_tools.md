@@ -1,5 +1,5 @@
 ## UCSC tools
-The University of California, Santa Cruz (UCSC) has built a set of utilities for handling sequences and assemblies. The two programs are:
+The University of California, Santa Cruz (UCSC) has built a set of utilities for handling sequences and assemblies. These are readily used as part of RepeatMasker and RepeatModeler2 workflows and need to be in your path. The two programs are:
 - faToTwoBit
 - twoBitInfo
 
