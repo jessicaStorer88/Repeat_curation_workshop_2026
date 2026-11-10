@@ -29,8 +29,8 @@ This GitHub repository is dedicated to materials related to the workshop:
 
 ## Organizers
 
-- Rachel O'Neill 
-- Jessica M. Storer ()
+- Rachel O'Neill (rachel(dot)oneill(at)uconn(dot)edu)
+- Jessica M. Storer (Jessica(dot)storer(at)uconn(dot)edu)
   - Associate Research Scientist. Institute for Systems Genomics. University of Connecticut, Storrs, CT, USA.
 - Merly Escalona (merly(dot)escalona(at)uconn(dot)com)
   - Research associate. Institute for Systems Genomics. University of Connecticut, Storrs, CT, USA.
