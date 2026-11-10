@@ -6,13 +6,16 @@ Running RepeatModeler2 is a two step process:
 
 #### Step 1: build the database
 ```
-BuildDatabase -name $DB $GENOME
+BuildDatabase -name <database> <genome.fa>
 ```
+```-name``` is a user-generated name that is used for step 2
  
 #### Step 2: run RepeatModeler (-LTRStruct adds the LTR structural pipeline)
 ```
-RepeatModeler -database $DB -threads 16 -LTRStruct
+RepeatModeler -database <name_from_step_1> -threads 16 -LTRStruct
 ```
+To increase the speed, you can increase threads. 16 is a suggested number. The use of ```-LTRStruct`` takes advantage of a model leveraging the sequence structures readily apparent in the long terminal repeats (LTRs) of endogenous retroviruses (ERVs) to detect that particular class of repeat. 
+
 ### Utilities
 
 In addition to the main program described above, there are a plethora of utilities available to aid in TE curation, including:
