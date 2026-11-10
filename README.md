@@ -12,13 +12,18 @@ This GitHub repository is dedicated to materials related to the workshop:
   - Research School of Biology, Australian National University, Canberra.
 
 ## How is this respository organized
-
-
-## Table of Contents
-
-- [Workshop agenda](#Workshop-Agenda)
-
-## Workshop Agenda
+- [main](main/) folder
+  - Schematic overview of [TE curation methods](main/main#figure-1)
+  - The [pipeline we will be utilizing](main/main#figure-2) for this workshop
+  - General [think chart](main/main#figure-3) for approaching model curation
+- The [workshop agenda](Workshop_agenda.md) is a general outline for the two day workshop, with the breakdown of sections and what will be covered
+  - Please note, this may be subject to minor changes
+- All participants will get a temporary UCONN cluster account to follow along with the live demos. [TE tools container folder](TE_tools_container) contains instructions on how to download the TE tools container, which hosts all the necessary tools we will be using. Log-ins will be provided to each participant.
+- In [programs](programs/) there is a description of the tools we will be using and some common utilities that will come in handy as we begin to curate.
+- [scripts](scripts/) is where the scripts to run the TE curation pipeline are housed. Each file has an execution command, slurm script, and description of the parameters being used.
+  - It may be helpful to read through the programs section first, then edit your own scripts as this will provide a more comprehensive overview.
+- We have compiled a list of papers that may be helpful in the [papers folder](papers/). It is highly encouraged you read them, or at least the first two!
+- For ease of downloading or viewing, the figures/schematics have been uploaded in pdf and png formats in [resources](resources/img)
 
 ## Funding
 
