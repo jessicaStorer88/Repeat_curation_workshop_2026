@@ -1,6 +1,6 @@
 ## RepeatModeler2
 
-During a time when it was computationally intractable to run all-by-all genome comparisons for <i>de novo</I> repeat identification, RepeatModeler was developed. Leveraging the interspersed and repetitive nature of transposable elements, RepeatModeler2 samples a portion of the genome in successive rounds to avoid re-discovery. 
+During a time when it was computationally intractable to run all-by-all genome comparisons for <i>de novo</i> repeat identification, RepeatModeler was developed. Leveraging the interspersed and repetitive nature of transposable elements, RepeatModeler2 samples a portion of the genome in successive rounds to avoid re-discovery. 
 
 Running RepeatModeler2 is a two step process:
 
@@ -28,7 +28,7 @@ The main utilities that will be used in this workshop are described below.
 
 ```generateSeedAlignments.pl``` - uses ```<model>.align``` files to build seed alignments. Seed alignments are multiple sequence alignments of TE copies that are categorized by the same model. This program is essential for generating the stockholm files necessary for downstream processes like Linup which are used to isolate the instances of this TE family. 
 ```
-generateSeedAlignments.pl -taxon ${taxon} -assemblyFile ${assemblyFile.2bit} ${alignFile.align}
+generateSeedAlignments.pl -taxon <genus_species> -assemblyFile <genome.2bit> <RepeatMasker align file>
 ```
 
 <br>
@@ -36,8 +36,8 @@ generateSeedAlignments.pl -taxon ${taxon} -assemblyFile ${assemblyFile.2bit} ${a
 
 ```Linup``` - uses stockholm files to isolate (1) the consensus for the given TE model and (2) isolates fasta sequences for every instance of that TE copy into one fasta file. These products are then used to refine consensus calling of this TE family 
 ```
-Linup ${infile.stk} -consensus > ${prefix}.con.fa
-Linup ${infile.stk} -fasta > ${prefix}.elements.fa
+Linup <infile.stk> -consensus > <model consensus.fa>
+Linup <infile.stk> -fasta > <model elements.fa>
 ```
 
 <br>
