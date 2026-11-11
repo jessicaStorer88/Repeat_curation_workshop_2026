@@ -22,7 +22,7 @@ This GitHub repository is dedicated to materials related to the workshop:
 - In [programs](programs/) there is a description of the tools we will be using and some common utilities that will come in handy as we begin to curate.
 - [scripts](scripts/) is where the scripts to run the TE curation pipeline are housed. Each file has an execution command, slurm script, and description of the parameters being used.
   - It may be helpful to read through the programs section first, then edit your own scripts as this will provide a more comprehensive overview.
-- We have compiled a list of papers that may be helpful in the [papers folder](papers/). It is highly encouraged you read them, or at least the first two!
+- We have compiled a list of papers that may be helpful in the [papers folder](papers/). It is highly encouraged you read them, or at least the first two, which are a review of TEs (biology, classification and evolution), and a curation protocol paper using the programs we will be using during the workshop.
 - For ease of downloading or viewing, the figures/schematics have been uploaded in pdf and png formats in [resources](resources/img)
 
 ## Funding
