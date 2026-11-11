@@ -10,7 +10,7 @@ Below is the series of steps needed to prepare your own repeat library for curat
 <br>
 
 **NOTE:**
-Extended element files must be reformatted before proceeding, otherwise subsequent utilities with throw errors. This is a known bug. As a workaround, you can use [changeFastaFmt.py](changeFastaFmt.py) to strip the tailing orientation characters, and then polish with ```alignAndCallConsensus.pl```
+If model extension is required as part of the manual curation process, the extended element files <b><ins><i>must</b></ins></i> be reformatted before proceeding, otherwise subsequent utilities produce errors. This is a known bug. As a workaround, you can use [changeFastaFmt.py](changeFastaFmt.py) to strip the tailing orientation characters, and then polish with ```alignAndCallConsensus.pl```
 
 Reformat:
 ```
