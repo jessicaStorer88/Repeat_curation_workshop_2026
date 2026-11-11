@@ -1,6 +1,6 @@
 ## Running alignAndCallConsensus.pl for each model
 
-In order to get the initial visualizations and starting input/output for each model, you will need to run ```alignAndCallConsensus.pl``` on each generated consensus/element fasta file pair.
+In order to get the initial visualizations and starting input/output for each model, you will need to run ```alignAndCallConsensus.pl``` on each generated consensus/element fasta file pair. The program below is designed to loop through all putative models.
 
 ```
 $ sbatch alignAndCallCon.sh
