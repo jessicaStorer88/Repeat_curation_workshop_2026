@@ -30,7 +30,6 @@ calcDivergenceFromAlign.pl -s <summary_file>.divsum <file>.align
   - Not all organisms exhibit methylation (ex: Drosophila) so this may not be applicable to every organism. 
 - ```-s``` generates a summary file, needed for ```createRepeatLandscape.pl```
 - ```-a``` generate new alignment files with the recalculated divergence 
-- ```-noCpGMod``` does not modify transition counts at CpG sites 
 
 <br>
 <br>
