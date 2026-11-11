@@ -69,7 +69,7 @@ For the examples above, it is important to note that the actual divergence and q
 </div>
 
 <p align="center">
-<b>Figure 4. TE curation Visualization Overview </b>
+<b>Figure 4. TE curation visualization overview </b>
 </p>
 
 
