@@ -34,7 +34,7 @@ The general curation process that will be discussed in this workshop includes: r
 Curation is an iterative process (<b>Figure 3</b>), as you begin to investigate models you may need to jump back and forth between various tools and platforms. The most common approach is starting with ```alignAndCallConsensus.pl```, which will output an HTML file. This HTML may guide you in deciding if extension is needed, trimming (ex: segmental duplication), or if you have gotten to the edges of your model. You can use ```rmblast.pl``` which may help you gauge how much extension is needed to get close to the edges based on curated repeats from related species. Following extension or trimming, running ```alignAndCallConsensus.pl``` again will output an HTML (note: previous HTMLs will be overwritten), do the inspection process over until you’ve captured the edges of your model. 
 
 <br>
-As you make these decisions, here are some helpful tips(<b>Figure 3; Figure 4</b>)
+As you make these decisions, here are some helpful tips (<b>Figure 3; Figure 4</b>)
 
 - ERVs
   - Use NCBIs blastx to check for domains
