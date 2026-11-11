@@ -42,6 +42,7 @@ As you make these decisions, here are some helpful tips(<b>Figure 3; Figure 4</b
     - Dot plots will show inversions at the edges 
 - LINEs and SINEs
     - HTML and ``rmblast.pl``` to curated models is helpful here 
+    - looking for polyA tail at the 3' end
 
 <div id="figure-3">
 <p align="center">
