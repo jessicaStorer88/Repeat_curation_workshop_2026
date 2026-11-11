@@ -62,7 +62,7 @@ Running ```alignAndCallConsensus.pl``` will iterate across all instances to form
 
 <br>
 
-The usage of ```extendFlankingSeqs.pl``` for each model
+##### The usage of ```extendFlankingSeqs.pl``` for each model
 
 ```
 $ extendFlankingSeqs.pl  -f(lank) ## -d(atabase) <2bit genome file> -i(nput) <cross_match .out file> -o(utput) <elements fasta file>
