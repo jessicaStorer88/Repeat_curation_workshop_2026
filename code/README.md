@@ -290,7 +290,7 @@ done
 
 You will need to change `CONSENSUS_ELEMENTS` (output from previous step)
 
-### 7. Directory reorganization
+## 7. Directory reorganization
 
 Depending on how all the programs are run, files for all of the models may all be in one folder. If you would like to move all files corresponding to one model into their own folder, this script can do that for you.
 
@@ -336,7 +336,7 @@ done
 
 Make sure to change `input_dir`, `out_base`, and `DIR1`
 
-### 8. Reformat 
+## 8. Reformat 
 
 If model extension is required as part of the manual curation process, the extended element files must be reformatted before proceeding, otherwise subsequent utilities produce errors. This is a known bug. As a workaround, we have developed a short re-formatting script, [changeFastaFmt.py](scripts/changeFastaFmt.py) to strip the tailing orientation characters. 
 This script assumes that you have already reorganized your files such that each model has its own directory. 
@@ -378,7 +378,7 @@ for prefix in sorted(os.listdir(root)):
 Make sure to input the absolute path for the second argument when you run the script. 
 
 
-### 9. Re-run alignAndCallConsensus
+## 9. Re-run alignAndCallConsensus
 Now that the elements files have been renamed, we must polish with alignAndCallConsensus. This generates ```.out``` files with the correct naming structure so that we can proceed with using curation utilities. This script also assumes that you have followed the directory reorganization and reformatting steps. 
 
 ```
