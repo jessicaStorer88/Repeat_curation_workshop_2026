@@ -1,5 +1,5 @@
 # Testing your container installation
-To test the container, please run the following test:
+To test the container, please run the following test (using the rnd-5_family-975-extended.con.fa files rnd-5_family-975-extended_rename.elements.fa in this directory):
 
 1. Activate the TETools container
 
