@@ -338,7 +338,7 @@ Make sure to change `input_dir`, `out_base`, and `DIR1`
 
 ## 8. Reformat 
 
-If model extension is required as part of the manual curation process, the extended element files must be reformatted before proceeding, otherwise subsequent utilities produce errors. This is a known bug. As a workaround, we have developed a short re-formatting script, [changeFastaFmt.py](scripts/changeFastaFmt.py) to strip the tailing orientation characters. 
+If model extension is required as part of the manual curation process, the extended element files must be reformatted before proceeding, otherwise subsequent utilities produce errors. This is a known bug. As a workaround, we have developed a short re-formatting script, changeFastaFmt.py to strip the tailing orientation characters. 
 This script assumes that you have already reorganized your files such that each model has its own directory. 
 
 ```
@@ -412,6 +412,7 @@ done
 
 Make sure to change ```/path/to/dfam-tetools.sh``` and ```root```
 
+> **Note** that there is a difference with the other scripts and this one in how the `dfam-tetools` container is called. On the mantis cluster, there is a limit to how many times a user can pull a singularity image. By calling the container in this way, you only pull the image once. 
 
 ### Useful links
 
