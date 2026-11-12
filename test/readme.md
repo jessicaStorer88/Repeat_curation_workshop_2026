@@ -15,6 +15,10 @@ To test the container, please run the following test:
 
 If your test is successful, you will see the following on your terminal:
 
+<p align="center">
+<img src="../resources/img/successful_test.png" alt="Figure 1" width="900">
+</p>
+<p align="center">
 
 
 and the following files will be produced:
