@@ -1,21 +1,12 @@
-Depending on how all the programs are run, files for all of the models may all be in one folder. If you would like to move all files corresponding to one model into their own folder, this script can do that for you.
-
-```
-$ ./dirReorg.sh
-```
-
-<br>
-
-```
 #!/usr/bin/bash
-
-input_dir="/core/labs/Oneill/jstorer/aus_workshop/fire_ant/stk/extended/con_elements/"
+WD=/path/to/your/working/directory
+input_dir="$WD/aus_workshop/fire_ant/stk/extended/con_elements/"
 
 # The directory you want to move files from
-DIR1="/core/labs/Oneill/jstorer/aus_workshop/fire_ant/stk/extended/con_elements/"
+DIR1="$WD/aus_workshop/fire_ant/stk/extended/con_elements/"
 
 # Output base directory
-out_base="/core/labs/Oneill/jstorer/aus_workshop/fire_ant"
+out_base="$WD/aus_workshop/fire_ant"
 
 mkdir -p "$out_base"
 
@@ -39,6 +30,3 @@ for infile in "$input_dir"/*.ali; do
     mv "$DIR1"/${prefix}-* "$outdir"/
 
 done
-```
-
-Make sure to change ```input_dir```, ```DIR1```, ```DIR2```, and ```out_base```
