@@ -1,6 +1,7 @@
 If model extension is required as part of the manual curation process, the extended element files <b><ins><i>must</b></ins></i> be reformatted before proceeding, otherwise subsequent utilities produce errors. This is a known bug. As a workaround, you can use this script to strip the tailing orientation characters, and then polish with ```alignAndCallConsensus.pl```
 
 Reformat:
+
 ```
 python3 changeFastaFmt.py <extended.elements.fa> <extended_rename.elements.fa>
 ```

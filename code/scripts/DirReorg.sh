@@ -1,12 +1,3 @@
-Depending on how all the programs are run, files for all of the models may all be in the same folders. If you would like to move all files corresponding to one model into their own folder, this script can do that for you.
-
-```
-$ ./dirReorg.sh
-```
-
-<br>
-
-```
 #!/usr/bin/bash
 
 input_dir="/path/to/linup/dir"
@@ -41,6 +32,3 @@ for infile in "$input_dir"/*.ali; do
     mv "$DIR2"/${prefix}.* "$outdir"/ 
 
 done
-```
-
-Make sure to change ```input_dir```, ```DIR1```, ```DIR2```, and ```out_base```

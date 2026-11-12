@@ -11,7 +11,7 @@
 
 <div id="figure-1">
 <p align="center">
-<img src="../resources/img/TE_curation_method_comparison_v2.png" alt="Figure 1" width="900">
+<img src="../resources/img/figure1_te_curation_method_comparison.png" alt="Figure 1" width="900">
 </p>
 </div>
 <p align="center">
@@ -23,7 +23,7 @@ The general curation process that will be discussed in this workshop includes: r
 
 <div id="figure-2">
 <p align="center">
-<img src="../resources/img/TE_general_workflow.png" width="500">
+<img src="../resources/img/figure2_te_general_workflow.png" width="500">
 </p>
 </div>
 
@@ -38,7 +38,7 @@ Curation is an iterative process (<b>Figure 3</b>), as you begin to investigate 
 
 <div id="figure-3">
 <p align="center">
-<img src="../resources/img/te_curation_workflow.png" width="500">
+<img src="../resources/img/figure3_te_detailed_curation_workflow.png" width="500">
 </p>
 </div>
 
@@ -61,7 +61,7 @@ For the examples above, it is important to note that the actual divergence and q
 
 <div id="figure-4">
 <p align="center">
-<img src="../resources/img/TE_curation_vizualization.png" width="900">
+<img src="../resources/img/figure4_visualizations_html_dotPlot.png" width="900">
 </p>
 </div>
 
