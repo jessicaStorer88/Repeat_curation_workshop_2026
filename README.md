@@ -84,7 +84,7 @@ This workshop is funded by Australia National University's Centre for Biodiversi
 ## Organizers
 
 - University of Connecticut: 
-  - Rachel O'Neill (rachel(dot)oneill(at)uconn(dot)edu)
+  - Rachel O'Neill (rachel(dot)oneill(at)uconn(dot)edu) *Director of Institute for Systems Genomics, Professor Genetics and Genomics and the Dept. of Molecular and Cell Biology*
   - Jessica M. Storer. *Associate Research Scientist* (jessica(dot)storer(at)uconn(dot)edu)
     - Institute for Systems Genomics. University of Connecticut, Storrs, CT, USA.
   - Merly Escalona/ *Research Associate* (merly(dot)escalona(at)uconn(dot)com)
