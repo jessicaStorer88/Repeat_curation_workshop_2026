@@ -1,6 +1,7 @@
 # Pipeline
 
 Below is the series of steps needed to prepare your own repeat library for curation. We will go over them, one by one, and you can find the individual scripts in this folder. For this workshop, we are using the fire ant (*Solenopsis invicta*) as an example.
+We have already run this pipeline on the Fire ant and all of the data will available to you during the workshop. Feel free to follow along with this ant dataset or generate your own using the scripts outlined here.  
 
 0. (Optional) [How to download a genome assembly from NCBI](#0-downloading-the-fire-ant-solenopsis-invicta-genome-assembly)
 1. [*De novo* repeat discovery](#1-de-novo-repeat-discovery)
@@ -10,6 +11,8 @@ Below is the series of steps needed to prepare your own repeat library for curat
 5. [Get fasta consensus and elements](#4-extending-seed-alignments)
 6. [Run ```alignAndCallConsensus.pl``` for each model](#5-get-fasta-consensus-and-elements) 
 7. [Directory reorganization](#7-directory-reorganization)
+8. [Reformat elements fasta](#8-reformat-elements-fasta)
+9. [Re-run alignAndCallConsensus](#9-re-run-alignAndCallConsensus)
 
 
 ## 0. Downloading the fire ant (*Solenopsis invicta*) genome assembly
@@ -336,7 +339,7 @@ done
 
 Make sure to change `input_dir`, `out_base`, and `DIR1`
 
-## 8. Reformat 
+## 8. Reformat elements fasta 
 
 If model extension is required as part of the manual curation process, the extended element files must be reformatted before proceeding, otherwise subsequent utilities produce errors. This is a known bug. As a workaround, we have developed a short re-formatting script, changeFastaFmt.py to strip the tailing orientation characters. 
 This script assumes that you have already reorganized your files such that each model has its own directory. 
