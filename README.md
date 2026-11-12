@@ -31,14 +31,14 @@ This repository is set up for easy access to the content that will be discussed 
 
 ## Agenda
 
-- The [workshop agenda](Workshop_agenda.md) is a general outline for the two day workshop, with the breakdown of sections and what will be covered
+- The [workshop agenda](./main/agenda.md) is a general outline for the two day workshop, with the breakdown of sections and what will be covered
 - Two days, 9:30 am to 4:00 pm. Day 1 opens with two 30-minute guest talks on genome assemblies. About 3 hours are talks and demos, and 5.5 hours are hands-on work, including about 2.5 hours for participants to curate their own datasets.
 
 > :warning: Please note, this may be subject to minor changes :warning: 
 
 ### Day 1: Foundations and getting to the edges
 
-At a glance, talks on genome assemblies, big picture and goals, discussion of [programs, utilities, extending models](../programs), first pass on your own data.
+At a glance, talks on genome assemblies, big picture and goals, discussion of [programs, utilities, extending models](programs/README.md), first pass on your own data.
 
 | **Time**                 | **Duration** | **Details** |
 |--------------------------|:-------------|:----------|
@@ -59,7 +59,7 @@ At a glance, talks on genome assemblies, big picture and goals, discussion of [p
 
 ### Day 2: Quality control, classification, and your own data
 
-At a glance we will be discussing: QC and visualization, classification and redundancy, blastx for autonomous TEs, automatic TE curation pipelines, curation studio.
+At a glance we will be discussing: QC and visualization, classification and redundancy, `blastx` for autonomous TEs, automatic TE curation pipelines, curation studio.
 
 | **Time**                 | **Duration** | **Details** | 
 |--------------------------|:----------|:----------|

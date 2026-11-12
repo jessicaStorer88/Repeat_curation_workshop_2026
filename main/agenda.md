@@ -17,14 +17,14 @@ Two days, 9:30 am to 4:00 pm. Day 1 opens with two 30-minute guest talks on geno
 | **9:30 PM to 9:50 PM** | **Welcome and setup check** |  (20 min) | 
 | | Introductions and a quick poll |  Experience with [`RepeatModeler2`](../programs/RepeatModeler2.md), [`RepeatMasker`](../programs/RepeatMasker.md), command line, and which species or datasets people brought. | 
 | | Goals |  Goals for the two days and how the time is split. | 
-| | [Environment check](../TE_tools_container/installation.md) | Everyone logs in, runs a test command, and finds the practice data. | 
+| | [Environment check](../TE_tools_container/TE_tools_install.md) | Everyone logs in, runs a test command, and finds the practice data. | 
 | **9:50 PM to 10:20 PM** |  **Genome assemblies** |  Rachel O'Neill (30 min) | 
 | | | 25 minutes plus 5 minutes of questions. | 
 | **10:20 PM to 10:50 PM** | **Genome assembly approaches** |  Merly Escalona (30 min) | 
 | | | 25 minutes plus 5 minutes of questions. | 
 | **10:50 PM to 11:05 PM** | **Break** |  (15 min) | 
 | **11:05 PM to 11:40 PM** | **The Big Picture**  | (35 min) | 
-| | Curation and `RepeatModeler2` | Why curate? What raw `RepeatModeler2` output looks like?: fragmented copies, truncated ends, internal deletions, old diverged copies (10 min).
+| | Curation and `RepeatModeler2` | Why curate? What raw `RepeatModeler2` output looks like: fragmented copies, truncated ends, internal deletions, old diverged copies (10 min).
 | | Curation approaches | The three approaches [(whole-genome `RepeatModeler2`, curated related-species library, Progressive Cactus)](../main/README.md): requirements, strengths, limitations. | 
 | | Assemblies | Tie back to the assembly talks: all three depend on assembly quality (10 min). |
 | | Activity (15 min) | Open discussion of the challenges each of the participants has faced with their datasets thus far. | 

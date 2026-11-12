@@ -7,7 +7,7 @@ Running RepeatModeler2 is a two step process:
 #### Step 1: build the database
 
 ```
-$ BuildDatabase -name <database> <genome.fa>
+BuildDatabase -name <database> <genome.fa>
 ```
 
 `-name` is a user-generated name that is used for step 2
@@ -15,7 +15,7 @@ $ BuildDatabase -name <database> <genome.fa>
 #### Step 2: run RepeatModeler (-LTRStruct adds the LTR structural pipeline)
 
 ```
-$ RepeatModeler -database <name_from_step_1> -threads 16 -LTRStruct
+RepeatModeler -database <name_from_step_1> -threads 16 -LTRStruct
 ```
 To increase the speed, you can increase threads. 16 is a suggested number. The use of `-LTRStruct` takes advantage of a model leveraging the sequence structures readily apparent in the long terminal repeats (LTRs) of endogenous retroviruses (ERVs) to detect that particular class of repeat. 
 
@@ -34,7 +34,7 @@ The main utilities that will be used in this workshop are described below.
 `generateSeedAlignments.pl` - uses `<model>.align` files to build seed alignments. Seed alignments are multiple sequence alignments of TE copies that are categorized by the same model. This program is essential for generating the stockholm files necessary for downstream processes like Linup which are used to isolate the instances of this TE family. 
 
 ```
-$ generateSeedAlignments.pl -taxon <genus_species> -assemblyFile <genome.2bit> <RepeatMasker align file>
+generateSeedAlignments.pl -taxon <genus_species> -assemblyFile <genome.2bit> <RepeatMasker align file>
 ```
 
 #### `Linup`
@@ -42,8 +42,8 @@ $ generateSeedAlignments.pl -taxon <genus_species> -assemblyFile <genome.2bit> <
 `Linup` - uses stockholm files to isolate (1) the consensus for the given TE model and (2) isolates fasta sequences for every instance of that TE copy into one fasta file. These products are then used to refine consensus calling of this TE family 
 
 ```
-$ Linup <infile.stk> -consensus > <model consensus.fa>
-$ Linup <infile.stk> -fasta > <model elements.fa>
+Linup <infile.stk> -consensus > <model consensus.fa>
+Linup <infile.stk> -fasta > <model elements.fa>
 ```
 
 #### `alignAndCallConsensus.pl`
@@ -51,7 +51,7 @@ $ Linup <infile.stk> -fasta > <model elements.fa>
 `alignAndCallConsensus.pl` - Aptly named, this tool aligns a putative TE family consensus to all the instances of that family in your genome. Alignments generated from this step are used to call a consensus. This step can be run iteratively to continue refining the consensus as more sequences are considered during extension via H-pads, a set of Hs at the flank(s) you want to extend.
 
 ```
-$ alignAndCallConsensus.pl -c <model-extended.con.fa> -e <model-extended_rename.elements.fa> -ma 14 -ht -re
+alignAndCallConsensus.pl -c <model-extended.con.fa> -e <model-extended_rename.elements.fa> -ma 14 -ht -re
 ```
 
 - `-c` specifies consensus file
@@ -68,7 +68,7 @@ $ alignAndCallConsensus.pl -c <model-extended.con.fa> -e <model-extended_rename.
 `rmblast.pl` - RepeatMasker's version of NCBI-BLAST paired with cross_match sensitivity. It leverages scoring logic from cross_match to reflect the complexity and accuracy of target sequences. It is used to identify similar repeat sequences in the genome and can be used to compare repeat models to existing curated libraries.
 
 ```
-$ rmblast.pl <model-extended.con.fa> <model-extended.con.fa>
+rmblast.pl <model-extended.con.fa> <model-extended.con.fa>
 ```
 
 - this command by itself will print alignment matches with less than 80% overlap
@@ -81,7 +81,7 @@ $ rmblast.pl <model-extended.con.fa> <model-extended.con.fa>
 `AutoRunBlocker.pl`- Due to the nature of aligning instances that vary in divergence, there is occasionally evidence of insertions or deletions within the called consensus. In order to assess if those variants are part of the consensus, this tool identifies gaps or regions of lower similarity. It analyzes the consensus sequences and instances in windows to correct for these low confidence regions.
 
 ```
-$ AutoRunBlocker.pl -l <model>.ali -w <window size> -mc 50 -p -mr 0.3
+AutoRunBlocker.pl -l <model>.ali -w <window size> -mc 50 -p -mr 0.3
 ```
 
 - `-l` specifies alignment file

@@ -6,6 +6,7 @@
   - [Figure 4: TE curation visualization overview](#figure-4)
   
 ## Repeat Pipeline
+
 <div align="justify">
 <p>There are several methods that can be utilzed to curate repeat models (<b>Figure 1</b>). The first and most labor intensive is running RepeatModeler2 on the whole genome. This approach requires extensive repeat knowledge, samples only a portion of the genome, and extension of the models due to fragment discovery in the <i>de novo</i> process (<b>Figure 1, #1</b>). A second approach leverages curated models available for closely-related species, which are then used as a library for a RepeatMasker run (<b>Figure 1, #2</b>). This approach requires less curation than a whole-genome RM2 method. In addition, this method provides model metadata obtained from the curated model such as class and subclass/subfamily. Alternatively, Progressive CACTUS can be utilized to curate lineage- and species-specific models in a taxonomically-aware manner (<b>Figure 1, #3</b>). This process is made easier by the availability of high-quality genomes for the ingroup as well as the outgroup. In addition, a dense species sampling if there are high divergence times and/or low divergence times help alleviate the presence of false positives and low quality/fragmented alignments. The lineage- and/or species-specific DNA insertions can be extracted from the CACTUS alignment output (HAL file), and RepeatModeler2 run on the fragments in order to ascertain repeats families an a somewhat agnostic manner with the added benefit of a reduced search space. 
 
@@ -51,7 +52,7 @@ Visualizing potential models is essential to ascertain if a TE model is complete
 
 - Endogenous retroviruses (ERVs):
     - For example, a byproduct of ERV non-homologous recombination events are solo long terminal repeats (soloLTRs). Given this information, it is expected that there will be many shorter alignments to the LTR portion of the ERV, with much higher coverage in these regions. In addition, a self-alignment, visualized in the form of a dot plot, displays the LTRs of an ERV. The contiguity of the dot plot matches will also allow the researcher to identify if the ERV belongs to an older family, as the 5’ and 3’ LTRs are more likely to be diverged from one another.
-    - In combination with the visualization describe above, the use of NCBI's blastx to check for domains aids in the decision to extend models
+    - In combination with the visualization describe above, the use of NCBI's `blastx` to check for domains aids in the decision to extend models
 - LINE/SINE:
   - LINE and SINE elements will display a 5’ truncation pattern in the alignment, which will also be reflected in the coverage over the LINE element. In the sequence, a GC-rich 5' and 3' polyA tail will be visible in a full-length element.
 - DNA TEs:

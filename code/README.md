@@ -42,7 +42,7 @@ rm -rf ncbi_dataset md5sum.txt README.md ncbi_dataset.zip
 The first step in de novo repeat discovery is running a *de novo* program. Below is how to run `RepeatModeler2` via a submitted slurm script and a via the `dfam-tetools` container:
 
 ```
-$ sbatch RepeatModeler.sh
+sbatch RepeatModeler.sh
 ```
 
 
@@ -89,7 +89,7 @@ Although the `-LTRStuct` option is available, it often produces single-copy “f
 The second step is to run `RepeatMasker` to competitively collect more copies. The submitted slurm script is:
 
 ```
-$ sbatch RepeatMasker.sh
+sbatch RepeatMasker.sh
 ```
 
 ```
@@ -131,7 +131,7 @@ FamDB git: https://github.com/Dfam-consortium/famdb
 To visualize the models and extend for the next step, we need to generate seed alignments per RM2 predicted model. 
 
 ```
-$ sbatch generateSeedAlign.sh
+sbatch generateSeedAlign.sh
 ```
 
 
@@ -169,7 +169,7 @@ You will need to specify the working directory, where to put the stk (`.stk` Sto
 The next step is to extend the models. *De novo* repeat finders are working with genomes that are a mix of old, young, truncated and full-length models, with a high potential to provide truncated models as output. Therefore, extension of the models discovered is necessary.
 
 ```
-$ sbatch extendSeedAlignments.sh
+sbatch extendSeedAlignments.sh
 ```
 
 
@@ -231,7 +231,7 @@ The first argument is the current extended elements file that you have after run
 #### Step 2 : polish model with re-named sequences
 
 ```
-$ ~/RepeatModeler-2.0.7/util/alignAndCallConsensus.pl -c <extended.con.fa> -e <extended_rename.elements.fa> -ma 14 -ht -re
+~/RepeatModeler-2.0.7/util/alignAndCallConsensus.pl -c <extended.con.fa> -e <extended_rename.elements.fa> -ma 14 -ht -re
 ```
 
 Running `alignAndCallConsensus.pl` will iterate across all instances to form a new consensus with the correct format and allow for per-model extension using `extendFlankingSeqs.pl`
@@ -240,7 +240,7 @@ Running `alignAndCallConsensus.pl` will iterate across all instances to form a n
 ##### The usage of `extendFlankingSeqs.pl` for each model
 
 ```
-$ extendFlankingSeqs.pl  -f(lank) ## -d(atabase) <2bit genome file> -i(nput) <cross_match .out file> -o(utput) <elements fasta file>
+extendFlankingSeqs.pl  -f(lank) ## -d(atabase) <2bit genome file> -i(nput) <cross_match .out file> -o(utput) <elements fasta file>
 ```
 
 You must specify a number by which you would like to extend each side of your sequences via `-f(lank)`. The output produces longer element sequences which will be used in `alignAndCallConsensus.pl` to extend the edges of your model. 
@@ -251,7 +251,7 @@ You must specify a number by which you would like to extend each side of your se
 In order to polish the consensus sequences and visualize each model, you will need to extract out the consensus and contributing elements in FASTA format. This is accomplished via the `Linup` program:
 
 ```
-$ sbatch linup.sh
+sbatch linup.sh
 ```
 
 
@@ -293,7 +293,7 @@ You will need to change `EXTENDED_STK` (output from previous step) and `CONSENSU
 In order to get the initial visualizations and starting input/output for each model, you will need to run `alignAndCallConsensus.pl` on each generated consensus/element fasta file pair. The program below is designed to loop through all putative models.
 
 ```
-$ sbatch alignAndCallCon.sh
+sbatch alignAndCallCon.sh
 ```
 
 
@@ -333,7 +333,7 @@ You will need to change `CONSENSUS_ELEMENTS` (output from previous step)
 Depending on how all the programs are run, files for all of the models may all be in one folder. If you would like to move all files corresponding to one model into their own folder, this script can do that for you.
 
 ```
-$ ./dirReorg.sh
+./dirReorg.sh
 ```
 
 
