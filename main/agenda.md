@@ -79,7 +79,7 @@ Two days, 9:30 am to 4:00 pm. Day 1 opens with two 30-minute guest talks on geno
 | | Apply to your data (20 min) | [rmblastn.pl](http://rmblastn.pl) on your own models and note classification and redundancy calls. | 
 | **12:00 PM to 1:00 PM** | **Lunch**  | (60 min) |
 | **1:00 PM to 1:10 PM** | **Warm-up poll**  | (10 min) | 
-| | Quick poll | which step has been hardest so far? Use the answers to decide where to spend time in the studio. | 
+| | Quick poll | Which step has been hardest so far? | 
 | **1:10 PM to 1:30 PM** | **Annotating autonomous TEs with NCBI blastx** | (20 min)| 
 | | Talk (10 min) | Why protein-level annotation helps for autonomous elements, what to look for in hits (domains, frame, coverage), and how it feeds back into classification.
 | | Guided, hands-on (10 min) | Run blastx on practice consensus sequences and interpret the hits. | 
@@ -89,7 +89,7 @@ Two days, 9:30 am to 4:00 pm. Day 1 opens with two 30-minute guest talks on geno
 | | Connect to your data (5 min) | How the QC steps from Day 2 can be used to check automatic output | 
 | **2:00 PM to 2:50 PM** | **Curation studio, part 1**  | (45 min) | 
 | | Open work time for your own families | Participants who finish early can pair up to review each other's models using the QC checklist | 
-| | 2:35 PM | 5 min. stand-up check: what is blocking people? Put common issues on the board | 
+| | 2:35 PM | 5 min. stand-up check: What is blocking people? | 
 | **2:50 PM to 3:05 PM** | **Break**  | (15 min) | 
 | **3:05 PM to 3:35 PM** | **Curation studio, part 2**  | (30 min) | 
 | | Final push | Bring at least one model to the point where you would add it to your curated library, with a type, edges checked, and redundancy checked. |
