@@ -2,7 +2,7 @@
 
 We use the Dfam TETools container (`RepeatMasker`, `RepeatModeler2`, `FamDB`, `RMBlast`, UCSC tools). Do these steps before the workshop. The image is a public download of about 1.2 GB, so allow a few GB of free disk space. Image name: **dfam/tetools:2.01**
 
-When tested using a [temporary UCONN account](main/HPC_SETUP.md), this process takes ~15 minutes.
+When tested using a [temporary UCONN account](../HPC_SETUP.md), this process takes ~15 minutes.
 
 ## Mac laptop
 
