@@ -26,7 +26,7 @@ This repository is set up for easy access to the content that will be discussed 
 
 - All participants will get a temporary UCONN HPC account to follow along with the live demos of the workshop. 
   - Log-ins will be provided to each participant and details will be shared over email.
-- We are running all the curation pipeline with the [TE_Tools_container](https://github.com/Dfam-consortium/TETools). You can find in the [TE tools container folder](TE_tools_container) the instructions on how to download the TE tools container, which hosts all the necessary tools we will be using. 
+- We are running all the curation pipeline with the [TE Tools container](https://github.com/Dfam-consortium/TETools). You can find in the [TE_tools_container folder](TE_tools_container) the instructions on how to download the TE tools container, which hosts all the necessary tools we will be using. 
   - This will be set up for you in the UCONN HPC, however, we are also giving you information to have it working on your own.
 
 
