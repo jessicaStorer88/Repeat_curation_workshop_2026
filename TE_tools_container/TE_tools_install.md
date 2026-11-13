@@ -40,6 +40,7 @@ apptainer shell --cleanenv -B "$PWD":/work --pwd /work dfam-tetools.sif
 ## Cluster (Linux/Unix, no root needed)
 
 1. Find the tool: `module avail singularity apptainer`, then `module load singularity` (or apptainer). If neither exists, ask your admins.
+<b>NOTE</b>: If you are using the mantis/UCONN cluster, this step is unnecessary.
 
 2. Keep the cache out of your home directory (use `APPTAINER_CACHEDIR` if your cluster has Apptainer), then pull the image:
 
