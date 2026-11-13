@@ -21,7 +21,7 @@ This repository is set up for easy access to the content that will be discussed 
 - [`papers/`](papers/): compilation of papers related to repeat curation. Highly encouraged to check them out!!
 - [`resources/`](resources/img): figures/schematics used in the repository. Also, helpful for ease of downloading or viewing.
 - [`test/`](test/): instructions and files for testing the container installation
-- [`data/`](data/): data organization for files related to the workshop 
+- [`data/`](data/): [data organization](data/data.md) for files related to the workshop 
 
 ## Before we start
 
