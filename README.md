@@ -80,7 +80,7 @@ At a glance we will be discussing: QC and visualization, classification and redu
 
 ## Funding
 
-This workshop is funded by Australia National University's Centre for Biodiversity Analysis (CBA) grant for visiting scientists. 
+This workshop is funded in part by Australia National University's Centre for Biodiversity Analysis (CBA) grant for visiting scientists. 
 
 ## Organizers
 
