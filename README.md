@@ -20,7 +20,8 @@ This repository is set up for easy access to the content that will be discussed 
 - [`scripts/`](scripts/): scripts to run the TE curation pipeline. It may be helpful to read through the programs section first, then edit your own scripts as this will provide a more comprehensive overview.
 - [`papers/`](papers/): compilation of papers related to repeat curation. Highly encouraged to check them out!!
 - [`resources/`](resources/img): figures/schematics used in the repository. Also, helpful for ease of downloading or viewing.
-- [`test/`](test/): instructions and files for testing the container installation 
+- [`test/`](test/): instructions and files for testing the container installation
+- [`data/`](data/): data organization for files related to the workshop 
 
 ## Before we start
 
