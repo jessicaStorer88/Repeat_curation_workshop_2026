@@ -1,6 +1,6 @@
 # Testing your container installation
 
-To test the container, please run the following test (using the `rnd-5_family-975-extended.con.fa` files `rnd-5_family-975-extended_rename.elements.fa` in this directory):
+To test the container, please run the following test (using the `rnd-5_family-975-extended.con.fa` and `rnd-5_family-975-extended_rename.elements.fa` files in this directory):
 
 1. Activate the `TETools` container
 
@@ -8,7 +8,7 @@ To test the container, please run the following test (using the `rnd-5_family-97
 /path/to/container/dfam-tetools.sh
 ```
 
-2. Run alignAndCallConsensus.pl program
+2. Run `alignAndCallConsensus.pl` program
 
 ```
 /opt/RepeatModeler/util/alignAndCallConsensus.pl -c rnd-5_family-975-extended.con.fa -e rnd-5_family-975-extended_rename.elements.fa
