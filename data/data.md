@@ -1,5 +1,8 @@
 # Fire ant data for the workshop
 
+Below you will find the organization of the data generated as part of this workshop. These files were generating using the workflow 
+
+```
 ├── errAndOut
 ├── examples
 │   ├── ltr-1_family-3
@@ -664,3 +667,4 @@
         └── con_elements
 
 663 directories
+```
