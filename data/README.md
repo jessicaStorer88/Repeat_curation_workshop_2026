@@ -1,9 +1,6 @@
 # Fire ant data for the workshop
 
-As soon as you connect to the servers, you'll be able to see:
-- `dfam-tetools.sh`: Script that helps to run and set up the Dfam TEtools container.
-- `dfam-tetools.sif`: The actual Dfam TEtools container.
-- `fire_ant/`: the data generated during this workshop. These files were generated using the workflow described in `code/`. The main directories include (top down):
+These files were generated using the workflow described in `code/`. The main directories include (top down):
     - `errAndOut/`: standard `.err` and `.out` files generated from running the submitted Slurm scripts. These files help with troubleshooting and understanding your data.
     - `examples/`: a few examples that will be used as part of the demo portions of the workshop, labeled based on the ```RepeatModeler2``` name provided.
     - `fireant_RM/` : The ```RepeatMasker``` output from using the ```RepeatModeler2``` output library for annotation of the fire ant genome
