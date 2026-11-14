@@ -39,7 +39,7 @@ srun -p general --qos=interactive -c 1 --mem=1G --pty bash
 ```
 
 > **IMPORTANT** ‼️
-> The  QoS (interactive) can optionally be used for starting  interactive jobs, which will give the job a higher priority in the queue. This QOS has the following limits:
+> You can optionally use the QoS (interactive) to start interactive jobs, which gives the job higher priority in the queue. This QOS has the following limits:
 >   - 1 concurrent job
 >   - no more than 8 CPUs
 >   - no more than 64 GB of memory
@@ -48,10 +48,12 @@ srun -p general --qos=interactive -c 1 --mem=1G --pty bash
 
 ## Testing the TE Tools container
 
-After receiving your account and logging in:
+After you receive your account and log in, you'll be able to see the following in your `$HOME` directory:
+ - `dfam-tetools.sh`: Script that helps to run and set up the Dfam TEtools container.
+ - `dfam-tetools.sif`: The actual Dfam TEtools container.
+ - `fire_ant/`: The data generated during this workshop. 
 
-- You'll have the script that calls the Singularity container, and the container itself,  in your home directory.
-- You can use it like so:
+- With these, we can now log into the container and test our setup. To log into the container, we do:
 ```
  ./dfam-tetools.sh --container dfam-tetools.sif --singularity
 ```
