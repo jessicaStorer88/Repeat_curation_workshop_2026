@@ -53,7 +53,14 @@ After you receive your account and log in, you'll be able to see the following i
  - `dfam-tetools.sif`: The actual Dfam TEtools container.
  - `fire_ant/`: The data generated during this workshop. 
 
-- With these, we can now log into the container and test our setup. To log into the container, we do:
+- With these, we can now log into the container and test our setup.
+
+- Let's make sure we can run the Dfam-tetools script:
+```
+chmod +x dfam-tetools.sh
+```
+- Now, we "enter" the container by doing:
+  
 ```
  ./dfam-tetools.sh --container dfam-tetools.sif --singularity
 ```
