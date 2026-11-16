@@ -4,18 +4,16 @@ Below is the organization of the data generated during this workshop. These file
 
 The main directories include (top down):
 
-- `errAndOut/`: standard .err and .out files generated from running the submitted Slurm scripts. These files are useful for troubleshooting and understanding your data!
-- `examples/`: a few examples that will be used as part of the demo portions of the workshop, labeled based on the ```RepeatModeler2``` name provided.
-- `fireant_RM/` : The ```RepeatMasker``` output from using the ```RepeatModeler2``` output library for annotation of the fire ant genome
 - `genome/`: location of the fire ant .fa and .2bit genome
-- `models/`: a directory for each ```RepeatModeler2``` model, containing the extended consensus and element sequences and the output from one run of ```alignAndCallConsensus.pl```. This directory was generated after running the pipeline to better organize per-model content.
 - `repeatmodeler/`: the ```RepeatModeler2``` program output
-- `scripts/`: the Slurm scripts used to run the programs of the pipeline
+- `fireant_RM/` : The ```RepeatMasker``` output from using the ```RepeatModeler2``` output library for annotation of the fire ant genome
 - `stk/`: the original Stockholm (.stk) files produced by ```generateSeedAlignments.pl```
     -  `extended/`: the extended Stockholm (.stk) files
         - `con_elements/`: the consensus sequences and elements from the extended Stockholm (.stk) files, extracted using ```Linup``` 
-
-
+- `models/`: a directory for each ```RepeatModeler2``` model, containing the extended consensus and element sequences and the output from one run of ```alignAndCallConsensus.pl```. This directory was generated after running the pipeline to better organize per-model content.
+- `scripts/`: the Slurm scripts used to run the programs of the pipeline
+- `errAndOut/`: standard .err and .out files generated from running the submitted Slurm scripts. These files are useful for troubleshooting and understanding your data!
+- `examples/`: a few examples that will be used as part of the demo portions of the workshop, labeled based on the ```RepeatModeler2``` name provided.
 
 
 ```
