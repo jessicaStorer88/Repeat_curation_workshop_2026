@@ -75,7 +75,7 @@ Two days, 9:30 am to 4:00 pm. Day 1 opens with two 30-minute guest talks on geno
 | | Apply to your data (20 min) | Open your own alignments in HTML and decide what each one needs. | 
 | **10:40 AM to 10:55 AM** | **Break**  | (15 min) |
 | **10:55 AM to 12:00 M** | **Classification and reducing redundancy**  | (65 min) | 
-| | Talk (20 min) | Compare (`rmblastn.pl`) to a known library to help determine TE type and confirm the edges, cross-matching to the RepeatModeler2 library to find redundancy after extending, and how to decide which models to keep, merge, or discard. Comparison to curated libraries (for example, from a close relative). | 
+| | Talk (20 min) | Compare (`rmblastn.pl`) to a known library to help determine TE type and confirm the edges, cross-matching to the RepeatModeler2 library to find redundancy after extending, and how to decide which models to keep or discard. Comparison to curated libraries (for example, from a close relative). | 
 | | Guided hands-on (25 min) | Run pairwise comparison scripts, both on practice models and decide classification and redundancy together.
 | | Apply to your data (20 min) | [rmblastn.pl](http://rmblastn.pl) on your own models and note classification and redundancy calls. | 
 | **12:00 PM to 1:00 PM** | **Lunch**  | (60 min) |
