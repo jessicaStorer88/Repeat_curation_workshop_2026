@@ -33,3 +33,9 @@
     https://www.repeatmasker.org/webrepeatmaskerhelp.html
 
      <b>A manual for the use of RepeatMasker</b>
+
+7. Schrader L et al. (2026). "Transposable elements as evolutionary catalysts of ant macrodiversity". <i>Science advances</i>, 12(39), eaee0306. https://doi.org/10.1126/sciadv.aee0306
+
+   https://www.science.org/doi/epdf/10.1126/sciadv.aee0306
+
+   <b>Ant TE comparative analysis</b>
