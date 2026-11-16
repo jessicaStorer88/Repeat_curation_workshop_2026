@@ -44,8 +44,9 @@ Two days, 9:30 am to 4:00 pm. Day 1 opens with two 30-minute guest talks on geno
 | | Follow-along (20 min) | Participants repeat the round on the same family in pairs. |
 | **2:30 PM to 2:45 PM** |  **Break** | (15 min) | 
 | **2:45 PM to 3:30 PM** |  **Guided practice on practice families** | (45 min) | 
-| | | Each pair gets 2 practice families: a clean full-length family and a truncated family. A diverged family is an optional stretch for pairs who finish early. | 
-| | | Work through align, call consensus, extend, and check that the edges are reached, including a first look at TSDs with `TSD.pl`. | 
+| | | How to choose which models to curate (Intro to visualization) | 
+| | | Each pair selectes 1-2 practice families. | 
+| | | Work through align, call consensus, extend, and check that the edges are reached| 
 | **3:30 PM to 3:50 PM** |  **Your data: curation kickoff** | (20 min) | 
 | | Curation kickoff | Each participant selects 3 to 5 candidate families from their own `RepeatModeler2` output, ideally with a mix of easy and hard ones.
 | | Curation kickoff | Collect copies and build the first seed alignment for one family. If it is hard, start with an easier one and come back later.
