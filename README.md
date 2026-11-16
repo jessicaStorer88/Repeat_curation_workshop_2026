@@ -45,12 +45,12 @@ At a glance, talks on genome assemblies, big picture and goals, discussion of [p
 
 | **Time**                 | **Duration** | **Details** |
 |--------------------------|:-------------|:----------|
-| **9:30 PM to 9:50 PM**   | 20 min | Welcome and setup check | 
-| **9:50 PM to 10:20 PM**  | 25 min talk + 5 min questions | Genome assemblies: Rachel O'Neill | 
-| **10:20 PM to 10:50 PM** | 25 min talk + 5 min questions | Genome assembly approaches: Merly Escalona  | 
-| **10:50 PM to 11:05 PM** | 15 min | Break |  
-| **11:05 PM to 11:40 PM** | 35 min | The Big Picture  | 
-| **11:40 PM to 12:00 PM** | 20 min | The Programs: `RepeatModeler2` and `RepeatMasker`  | 
+| **9:30 AM to 9:50 AM**   | 20 min | Welcome and setup check | 
+| **9:50 AM to 10:20 AM**  | 25 min talk + 5 min questions | Genome assemblies: Rachel O'Neill | 
+| **10:20 AM to 10:50 AM** | 25 min talk + 5 min questions | Genome assembly approaches: Merly Escalona  | 
+| **10:50 AM to 11:05 AM** | 15 min | Break |  
+| **11:05 AM to 11:40 AM** | 35 min | The Big Picture  | 
+| **11:40 AM to 12:00 PM** | 20 min | The Programs: `RepeatModeler2` and `RepeatMasker`  | 
 | **12:00 PM to 1:00 PM**  | 60 min | Lunch  | 
 | **1:00 PM to 1:10 PM**   | 10 min | Warm-up survey  | 
 | **1:10 PM to 1:30 PM**   | 20 min | Understanding `RepeatModeler2` and `RepeatMasker` output  | 
