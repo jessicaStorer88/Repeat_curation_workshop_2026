@@ -45,7 +45,7 @@ Two days, 9:30 am to 4:00 pm. Day 1 opens with two 30-minute guest talks on geno
 | **2:30 PM to 2:45 PM** |  **Break** | (15 min) | 
 | **2:45 PM to 3:30 PM** |  **Guided practice on practice families** | (45 min) | 
 | | | How to choose which models to curate (Intro to visualization) | 
-| | | Each pair selectes 1-2 practice families. | 
+| | | Each pair selects 1-2 practice families. | 
 | | | Work through align, call consensus, extend, and check that the edges are reached| 
 | **3:30 PM to 3:50 PM** |  **Your data: curation kickoff** | (20 min) | 
 | | Curation kickoff | Each participant selects 3 to 5 candidate families from their own `RepeatModeler2` output, ideally with a mix of easy and hard ones.
@@ -68,7 +68,7 @@ Two days, 9:30 am to 4:00 pm. Day 1 opens with two 30-minute guest talks on geno
 | **Time** | **Details** | |
 |--------------|:----------|:----------|
 | **9:30 PM to 9:45 PM** | **Recap and questions**  | (15 min) |
-| | Refresh: worflow pipeline | Questions from the evening, plus any problems with Day 1 data. | 
+| | Refresh: workflow pipeline | Questions from the evening, plus any problems with Day 1 data. | 
 | **9:45 PM to 10:40 PM** | **Quality control and visualization**  | (55 min) | 
 | | Talk and demo (15 min) | Visualizing the multiple sequence alignment in HTML. What a good alignment looks like for the predicted TE, how to spot a pileup of short fragments, and what high divergence looks like. When and how to adjust the alignment score to exclude small fragments and false positives. | 
 | | Activity: 'Good, bad, ugly' (20 min) | Show 4 to 5 alignments and have pairs vote: ready to add, extend more, or raise the alignment score? Discuss disagreements. | 
@@ -76,7 +76,7 @@ Two days, 9:30 am to 4:00 pm. Day 1 opens with two 30-minute guest talks on geno
 | **10:40 AM to 10:55 AM** | **Break**  | (15 min) |
 | **10:55 AM to 12:00 M** | **Classification and reducing redundancy**  | (65 min) | 
 | | Talk (20 min) | Compare (`rmblastn.pl`) to a known library to help determine TE type and confirm the edges, cross-matching to the RepeatModeler2 library to find redundancy after extending, and how to decide which models to keep or discard. Comparison to curated libraries (for example, from a close relative). | 
-| | Guided hands-on (25 min) | Run pairwise comparison scripts, both on practice models and decide classification and redundancy together.
+| | Guided hands-on (25 min) | Run pairwise comparison scripts on practice models, and decide classification and redundancy together.
 | | Apply to your data (20 min) | [rmblastn.pl](http://rmblastn.pl) on your own models and note classification and redundancy calls. | 
 | **12:00 PM to 1:00 PM** | **Lunch**  | (60 min) |
 | **1:00 PM to 1:10 PM** | **Warm-up poll**  | (10 min) | 
