@@ -17,7 +17,7 @@ We have already run this pipeline on the fire ant and all of the data will avail
 
 ## 0. Downloading the fire ant (*Solenopsis invicta*) genome assembly
 
-To download a genome assembly from NCBI, we need to know the accession number of the genome assembly. In our case, for fire ant (*Solenopsis invicta*), that is `GCF_047496725.1`.
+To download a genome assembly from NCBI, we need the genome assembly accession number. In our case, for the yellow crazy ant (*Anoplolepis gracilipes*), that is `GCF_047496725.1`.
 
 Now, we need the `datasets` software that we can set up in a conda environment ([see here for more detailed information about it](https://github.com/ncbi/datasets))
 
@@ -25,14 +25,14 @@ Now, we need the `datasets` software that we can set up in a conda environment (
 conda install -n ncbi-datasets -c conda-forge ncbi-datasets-cli
 ```
 
-Let's activate our conda environment and donwload the genome assembly: 
+Let's activate our conda environment and download the genome assembly: 
 
 ```
 conda activate ncbi-datasets
 datasets download genome accession GCF_047496725.1
 ```
 
-This is going to download a `ncbi_dataset.zip` file, that we need to uncompress. Once that's done, we need to move the genome file out of the folder, and clean the rest of the files we will not be using.
+This will download a `ncbi_dataset.zip` file that we need to unzip. Once that's done, move the genome file out of the folder and clean up the rest of the files we won't use.
 
 ```
 unzip ncbi_dataset.zip
@@ -42,7 +42,7 @@ rm -rf ncbi_dataset md5sum.txt README.md ncbi_dataset.zip
 
 ## 1. *De novo* repeat discovery (Running `RepeatModeler2`)
 
-The first step in de novo repeat discovery is running a *de novo* program. Below is how to run `RepeatModeler2` via a submitted slurm script and a via the `dfam-tetools` container:
+The first step in de novo repeat discovery is running a *de novo* program. Below is how to run `RepeatModeler2` via a submitted Slurm script and via the `dfam-tetools` container:
 
 ```
 sbatch RepeatModeler.sh
