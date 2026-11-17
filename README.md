@@ -17,7 +17,7 @@ This GitHub repository is dedicated to materials related to the workshop:
 This repository is set up for easy access to the content that will be discussed throughout the workshop. In the following folders you'll find:
 - [`main/`](main/) folder: general content of the workshop, schematics, pipeline descriptions.
 - [`programs/`](programs/): there is a description of the tools we will be using and some common utilities that will come in handy as we begin to curate.
-- [`scripts/`](scripts/): scripts to run the TE curation pipeline. It may be helpful to read through the programs section first, then edit your own scripts as this will provide a more comprehensive overview.
+- [`code/`](code/): scripts to run the TE curation pipeline. It may be helpful to read through the programs section first, then edit your own scripts as this will provide a more comprehensive overview.
 - [`papers/`](papers/): compilation of papers related to repeat curation. Highly encouraged to check them out!!
 - [`resources/`](resources/img): figures/schematics used in the repository. Also, helpful for ease of downloading or viewing.
 - [`test/`](test/): instructions and files for testing the container installation
