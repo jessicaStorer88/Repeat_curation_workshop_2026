@@ -66,18 +66,17 @@ At a glance we will be discussing: QC and visualization, classification and redu
 
 | **Time**                 | **Duration** | **Details** | 
 |--------------------------|:----------|:----------|
-| **9:30 PM to 9:45 PM**   | 15 min | Recap and questions   |
-| **9:45 PM to 10:40 PM**  | 55 min | Quality control and visualization   | 
-| **10:40 AM to 10:55 AM** | 15 min | Break   |
-| **10:55 AM to 12:00 M**  | 65 min | Classification and reducing redundancy   | 
-| **12:00 PM to 1:00 PM**  | 60 min | Lunch   |
-| **1:00 PM to 1:10 PM**   | 10 min | Warm-up poll   | 
-| **1:10 PM to 1:30 PM**   | 20 min | Annotating autonomous TEs with NCBI blastx | 
-| **1:30 PM to 2:00 PM**   | 30 min | Automatic TE curation pipelines   | 
-| **2:00 PM to 2:50 PM**   | 45 min | Curation studio, part 1   | 
-| **2:50 PM to 3:05 PM**   | 15 min | Break   |
-| **3:05 PM to 3:35 PM**   | 30 min | Curation studio, part 2   | 
-| **3:35 PM to 4:00 PM**   | 25 min | Wrap-up   | 
+| **9:30 PM to 10:00 AM**   | 30 min | Recap and questions   |
+| **10:00 AM to 10:30 AM**  | 30 min | Classification and reducing redundancy   | 
+| **10:30 AM to 10:45 AM** | 15 min | Break   |
+| **10:45 AM to 11:45 AM**  | 60 min | Curation demo   | 
+| **11:45 PM to 12:00 PM**  | 15 min | Applying the scripts to your data   |
+| **12:00 PM to 12:15 PM**  | 15 min | Automation   |
+| **12:15 PM to 1:15 PM**  | 60 min | Lunch   |
+| **1:15 PM to 2:15 PM**   | 60 min | Curation studio   | 
+| **2:15 PM to 2:30 PM**   | 15 min | Break | 
+| **2:30 PM to 3:30 PM**   | 60 min | Curation studio, part 2   | 
+| **3:30 PM to 4:00 PM**   | 30 min | Wrap-up and discussion   |  
 
 ## Funding
 
