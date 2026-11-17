@@ -66,7 +66,7 @@ At a glance we will be discussing: QC and visualization, classification and redu
 
 | **Time**                 | **Duration** | **Details** | 
 |--------------------------|:----------|:----------|
-| **9:30 PM to 10:00 AM**   | 30 min | Recap and questions   |
+| **9:30 AM to 10:00 AM**   | 30 min | Recap and questions   |
 | **10:00 AM to 10:30 AM**  | 30 min | Classification and reducing redundancy   | 
 | **10:30 AM to 10:45 AM** | 15 min | Break   |
 | **10:45 AM to 11:45 AM**  | 60 min | Curation demo   | 
