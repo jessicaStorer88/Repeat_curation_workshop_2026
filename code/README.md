@@ -15,7 +15,7 @@ We have already run this pipeline on the fire ant and all of the data will avail
 9. [Re-run alignAndCallConsensus](#9-re-run-alignAndCallConsensus)
 
 
-## 0. Downloading the fire ant (*Solenopsis invicta*) genome assembly
+## 0. Downloading the yellow crazy ant (*Anoplolepis gracilipes*) genome assembly
 
 To download a genome assembly from NCBI, we need the genome assembly accession number. In our case, for the yellow crazy ant (*Anoplolepis gracilipes*), that is `GCF_047496725.1`.
 
