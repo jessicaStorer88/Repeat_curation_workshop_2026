@@ -67,36 +67,27 @@ Two days, 9:30 am to 4:00 pm. Day 1 opens with two 30-minute guest talks on geno
 
 | **Time** | **Details** | |
 |--------------|:----------|:----------|
-| **9:30 PM to 9:45 PM** | **Recap and questions**  | (15 min) |
+| **9:30 AM to 10:00 AM** | **Recap and questions**  | (30 min) |
 | | Refresh: workflow pipeline | Questions from the evening, plus any problems with Day 1 data. | 
-| **9:45 PM to 10:40 PM** | **Quality control and visualization**  | (55 min) | 
-| | Talk and demo (15 min) | Visualizing the multiple sequence alignment in HTML. What a good alignment looks like for the predicted TE, how to spot a pileup of short fragments, and what high divergence looks like. When and how to adjust the alignment score to exclude small fragments and false positives. | 
-| | Activity: 'Good, bad, ugly' (20 min) | Show 4 to 5 alignments and have pairs vote: ready to add, extend more, or raise the alignment score? Discuss disagreements. | 
-| | Apply to your data (20 min) | Open your own alignments in HTML and decide what each one needs. | 
-| **10:40 AM to 10:55 AM** | **Break**  | (15 min) |
-| **10:55 AM to 12:00 M** | **Classification and reducing redundancy**  | (65 min) | 
-| | Talk (20 min) | Compare (`rmblastn.pl`) to a known library to help determine TE type and confirm the edges, cross-matching to the RepeatModeler2 library to find redundancy after extending, and how to decide which models to keep or discard. Comparison to curated libraries (for example, from a close relative). | 
-| | Guided hands-on (25 min) | Run pairwise comparison scripts on practice models, and decide classification and redundancy together.
-| | Apply to your data (20 min) | [rmblastn.pl](http://rmblastn.pl) on your own models and note classification and redundancy calls. | 
-| **12:00 PM to 1:00 PM** | **Lunch**  | (60 min) |
-| **1:00 PM to 1:10 PM** | **Warm-up poll**  | (10 min) | 
-| | Quick poll | Which step has been hardest so far? | 
-| **1:10 PM to 1:30 PM** | **Annotating autonomous TEs with NCBI blastx** | (20 min)| 
-| | Talk (10 min) | Why protein-level annotation helps for autonomous elements, what to look for in hits (domains, frame, coverage), and how it feeds back into classification.
-| | Guided, hands-on (10 min) | Run blastx on practice consensus sequences and interpret the hits. | 
-| **1:30 PM to 2:00 PM** | **Automatic TE curation pipelines**  | (30 min) | 
-| | Overview (15 min) | What automatic TE curation pipelines do, where they save time, and which steps from this workshop (edges, classification, redundancy) they automate | 
-| | Group discussion (10 min) | Where would you trust automatic curation, and where would you still review by hand? | 
-| | Connect to your data (5 min) | How the QC steps from Day 2 can be used to check automatic output | 
-| **2:00 PM to 2:50 PM** | **Curation studio, part 1**  | (45 min) | 
-| | Open work time for your own families | Participants who finish early can pair up to review each other's models using the QC checklist | 
-| | 2:35 PM | 5 min. stand-up check: What is blocking people? | 
-| **2:50 PM to 3:05 PM** | **Break**  | (15 min) | 
-| **3:05 PM to 3:35 PM** | **Curation studio, part 2**  | (30 min) | 
-| | Final push | Bring at least one model to the point where you would add it to your curated library, with a type, edges checked, and redundancy checked. |
-| **3:35 PM to 4:00 PM** | **Wrap-up**  | (25 min) | 
-| | Share-outs (10 min) | Each person or pair shows one finished or nearly finished model and what they did. | 
-| | Review the workflow figure and the QC checklist (5 min) | What to do when a model won't resolve | 
-| | Next steps (5 min) | Resources, next steps, and how to continue after the workshop | 
-| | Feedback form (5 min) | | 
+| | HTML visualizations and choosing when to curate | Review alignment patterns for each model type; discussing format and how to generate; discuss stats per model | 
+| **10:00 AM to 10:30 AM** | **Classification and reducing redundancy**  | (30 min) | 
+| |  | Compare (`rmblastn.pl`) to a known library to help determine TE type and confirm the edges, cross-matching to the RepeatModeler2 library to find redundancy after extending, and how to decide which models to keep or discard. Comparison to curated libraries (for example, from a close relative). | 
+| **10:30 AM to 10:45 AM** | **Break**  | (15 min) | 
+| **10:45 AM to 11:45 AM** | **Curation demo**  | (60 min) |
+| | Model 1 (30 min)| From selection to the end! HTML, dot plot, blastx, rmblast | 
+| | Model 2 (30 min)| From selection to the end! HTML, dot plot, blastx, rmblast | 
+| **11:45 AM to 12:00 PM** | **Applying the scripts to your data**  | (15 min) |
+| |  | How do use the scripts to answer your biological questions |  
+| **12:00 PM to 12:15 PM** | **Automation**  | (15 min) |
+| | Overview (15 min) | What automatic TE curation pipelines do, where they save time, and which steps from this workshop (edges, classification, redundancy) they automate. Where would you trust automatic curation, and where would you still review by hand? | 
+| **12:15 PM to 1:15 PM** | **Lunch**  | (60 min) |
+| **1:15 PM to 2:15 PM** | **Curation studio**  | (60 min) | 
+| |  | Let's work on your data! |  
+| **2:15 PM to 2:30 PM** | **Break**  | (15 min) | 
+| **2:30 PM to 3:30 PM** | **Curation studio, part 2**  | (60 min) | 
+| | | Continue working on your data | 
+| **3:30 PM to 4:00 PM** | **Wrap-up and discussion**  | (30 min) | 
+| | Discussion (5 min) | Pipeline challenges and resolutions | 
+| | Review the workflow figure and the QC checklist (15 min) | What to do when a model won't resolve | 
+| | Next steps (10 min) | Resources, next steps, and how to continue after the workshop | 
 
