@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=masker_fireAnt
+#SBATCH --job-name=masker_yellow_crazy_ant
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 16
@@ -16,9 +16,9 @@ PATH_TO_CONTAINER=/path/to/your/dfam-tetools-script
 WD=/path/to/your/working/directory 
 cd $WD
 
-OUTPUT_NAME="fireant_RM"
-LIBRARY=$WD/fire_ant/fire_ant-families.fa
-GENOME=$WD/fire_ant/GCF_047496725.1_ASM4749672v1_genomic.fna
+OUTPUT_NAME="yellow_crazy_ant_RM"
+LIBRARY=$WD/yellow_crazy_ant/yellow_crazy_ant-families.fa
+GENOME=$WD/yellow_crazy_ant/GCF_047496725.1_ASM4749672v1_genomic.fna
 
 $PATH_TO_CONTAINER/dfam-tetools.sh --singularity -- \
     RepeatMasker -s -pa 24 -lib ${LIBRARY} -a ${GENOME} -dir ${OUTPUT_NAME}
