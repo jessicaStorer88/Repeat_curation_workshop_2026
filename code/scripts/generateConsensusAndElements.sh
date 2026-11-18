@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=linup_fire_ant
+#SBATCH --job-name=linup_yellow_crazy_ant
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 16
@@ -13,8 +13,8 @@
 
 PATH_TO_CONTAINER=/path/to/your/dfam-tetools-script
 $PATH_TO_CONTAINER/dfam-tetools.sh --singularity -- bash -c '
-EXTENDED_STK=$WD/fire_ant/stk/extended
-CONSENSUS_ELEMENTS=$WD/fire_ant/stk/extended/con_elements
+EXTENDED_STK=$WD/yellow_crazy_ant/stk/extended
+CONSENSUS_ELEMENTS=$WD/yellow_crazy_ant/stk/extended/con_elements
 
 mkdir -p $WD/stk/extended/con_elements
 
