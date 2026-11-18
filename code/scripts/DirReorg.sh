@@ -1,12 +1,12 @@
 #!/usr/bin/bash
 WD=/path/to/your/working/directory
-input_dir="$WD/aus_workshop/fire_ant/stk/extended/con_elements/"
+input_dir="$WD/stk/extended/con_elements/"
 
 # The directory you want to move files from
-DIR1="$WD/aus_workshop/fire_ant/stk/extended/con_elements/"
+DIR1="$WD/stk/extended/con_elements/"
 
 # Output base directory
-out_base="$WD/aus_workshop/fire_ant"
+out_base="$WD/outdir"
 
 mkdir -p "$out_base"
 
