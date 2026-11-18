@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 WD=/path/to/your/working/directory
-input_dir="$WD/stk/extended/con_elements/"
+input_dir="$WD/yellow_crazy_ant/stk/extended/con_elements"
 
 # The directory you want to move files from
-DIR1="$WD/stk/extended/con_elements/"
+DIR1="$WD/yellow_crazy_ant/stk/extended/con_elements"
 
 # Output base directory
 out_base="$WD/outdir"
