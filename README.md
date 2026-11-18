@@ -27,10 +27,4 @@ This workshop is funded in part by Australia National University's Centre for Bi
     - Institute for Systems Genomics. University of Connecticut, Storrs, CT, USA.
   - Magda Kmiecik. *Graduate Student* (magda(dot)kmiecik(at)uconn(dot)edu)
     - Institute for Systems Genomics. University of Connecticut, Storrs, CT, USA.
-- The Australian National University
-  - Claire Stephens. *Centre Coordinator* ()
-    - Centre for Biodiversity Analysis. Research School of Biology, Division of Ecology & Evolution. ANU College of Science and Medicine. The Australian National University Canberra ACT 2600 Australia.
-  - Peter Minogue. *Research Information Technology and Computational Specialist* ()
-    - Research School of Biology. ANU College of Science and Medicine. The Australian National University. Canberra ACT 2600 Australia.
-
  
