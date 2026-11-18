@@ -45,6 +45,8 @@ wget https://hgdownload.soe.ucsc.edu/hubs/GCF/047/496/725/GCF_047496725.1/GCF_04
 gunzip GCF_047496725.1.fa.gz
 ```
 
+The assumption for this pipeline is that you are working out of a directory with the base name `yellow_crazy_ant`
+
 ## 1. *De novo* repeat discovery (Running `RepeatModeler2`)
 
 The first step in de novo repeat discovery is running a *de novo* program. Below is how to run `RepeatModeler2` via a submitted Slurm script and via the `dfam-tetools` container:
@@ -120,8 +122,8 @@ WD=/path/to/your/working/directory
 cd $WD
  
 OUTPUT_NAME="yellow_crazy_ant_RM"
-LIBRARY=$WD/yellow_crazy_ant-families.fa
-GENOME=$WD/fire_ant/GCF_047496725.1_ASM4749672v1_genomic.fna
+LIBRARY=$WD/yellow_crazy_ant/yellow_crazy_ant-families.fa
+GENOME=$WD/yellow_crazy_ant/GCF_047496725.1_ASM4749672v1_genomic.fna
  
 $PATH_TO_CONTAINER/dfam-tetools.sh --singularity -- \
     RepeatMasker -s -pa 24 -lib ${LIBRARY} -a ${GENOME} -dir ${OUTPUT_NAME}
@@ -171,6 +173,12 @@ $PATH_TO_CONTAINER/dfam-tetools.sh--singularity -- \
 ```
 
 You will need to specify the working directory, where to put the stk (`.stk` Stockholm alignment) file output (`STK_OUTPUT`), the genome (`GENOME`), the location of the `.align` output from `RepeatMasker` (`ALIGN`). You will also need to update the `-taxon` option passed to the `generateSeedAlignments.pl` program. 
+
+Note that you will need to generate a .2bit genome for this step. This can be accomplished quickly using the TE tools container:
+
+```
+/opt/ucsc_tools/faToTwoBit GCF_047496725.1_ASM4749672v1_genomic.fna GCF_047496725.1_ASM4749672v1_genomic.2bit
+```
 
 ## 4. Extending seed alignments
  
