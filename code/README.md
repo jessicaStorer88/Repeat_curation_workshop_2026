@@ -1,7 +1,7 @@
 # Pipeline
 
 Below is the series of steps needed to prepare your own repeat library for curation. We will go over them, one by one, and you can find the individual scripts in this folder. For this workshop, we are using the yellow crazy ant (*Anoplolepis gracilipes*) as an example.
-We have already run this pipeline on the fire ant and all of the data will available to you during the workshop. Feel free to follow along with this ant dataset and/or generate your own output using the scripts outlined here.  
+We have already run this pipeline on the yellow crazy ant and all of the data will available to you during the workshop. Feel free to follow along with this ant dataset and/or generate your own output using the scripts outlined here.  
 
 0. (Optional) [How to download a genome assembly from NCBI](#0-downloading-the-fire-ant-solenopsis-invicta-genome-assembly)
 1. [*De novo* repeat discovery](#1-de-novo-repeat-discovery)
