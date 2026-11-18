@@ -39,6 +39,12 @@ mv ncbi_dataset/data/GCF_047496725.1/GCF_047496725.1_ASM4749672v1_genomic.fna .
 rm -rf ncbi_dataset md5sum.txt README.md ncbi_dataset.zip 
 ```
 
+An alternative option is to use `wget` to download your genome, then unzip the file, if you know the complete path:
+```
+wget https://hgdownload.soe.ucsc.edu/hubs/GCF/047/496/725/GCF_047496725.1/GCF_047496725.1.fa.gz
+gunzip GCF_047496725.1.fa.gz
+```
+
 ## 1. *De novo* repeat discovery (Running `RepeatModeler2`)
 
 The first step in de novo repeat discovery is running a *de novo* program. Below is how to run `RepeatModeler2` via a submitted Slurm script and via the `dfam-tetools` container:
