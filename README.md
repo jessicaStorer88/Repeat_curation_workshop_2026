@@ -1,16 +1,8 @@
 # Repeat curation workshop 2026
 
-This GitHub repository was dedicated to materials related to the workshop: 
+This GitHub repository was dedicated to materials related to the workshop that occurring at Australian National University, Canberra from 17 November to 18 November 2026: 
 
 [Curating transposable element libraries for non-model organisms and assembling through the hard stuff](https://cba.anu.edu.au/news-events/events/curating-transposable-element-libraries-non-model-organisms-and-assembling)
-
-- Occurring: 
-  - 17 Nov 2026 9:30 AM - 4:00 PM
-  - 18 Nov 2026 9:30 AM - 4:00 PM
-- In person
-- Location:
-  - Jan Anderson Seminar Room (ground floor).
-  - Research School of Biology, Australian National University, Canberra.
 
 ## How is this repository organized
 
