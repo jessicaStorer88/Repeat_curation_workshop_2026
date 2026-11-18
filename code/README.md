@@ -14,10 +14,9 @@ We have already run this pipeline on the fire ant and all of the data will avail
 8. [Reformat elements fasta](#8-reformat-elements-fasta)
 9. [Re-run alignAndCallConsensus](#9-re-run-alignAndCallConsensus)
 
+## 0. Downloading your genome assembly
 
-## 0. Downloading the yellow crazy ant (*Anoplolepis gracilipes*) genome assembly
-
-To download a genome assembly from NCBI, we need the genome assembly accession number. In our case, for the yellow crazy ant (*Anoplolepis gracilipes*), that is `GCF_047496725.1`.
+To download a genome assembly from NCBI, we need the genome assembly accession number. The example used for this pipeline is the yellow crazy ant (*Anoplolepis gracilipes*), that is `GCF_047496725.1`.
 
 Now, we need the `datasets` software that we can set up in a conda environment ([see here for more detailed information about it](https://github.com/ncbi/datasets))
 
@@ -51,7 +50,7 @@ sbatch RepeatModeler.sh
 
 ``` 
 #!/bin/bash
-#SBATCH --job-name=modeler_fire
+#SBATCH --job-name=modeler_yellow_crazy_ant
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 16
@@ -69,7 +68,7 @@ WD=/path/to/your/working/directory
 cd $WD
  
 GENOME=GCF_047496725.1_ASM4749672v1_genomic.fna
-DB=fire_ant
+DB=yellow_crazy_ant
  
 # Step 1: build the database
 $PATH_TO_CONTAINER/dfam-tetools.sh --singularity -- \
@@ -97,7 +96,7 @@ sbatch RepeatMasker.sh
 
 ```
 #!/bin/bash
-#SBATCH --job-name=masker_fireAnt
+#SBATCH --job-name=masker_yellow_crazy_ant
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 16
@@ -114,8 +113,8 @@ PATH_TO_CONTAINER=/path/to/your/dfam-tetools-script
 WD=/path/to/your/working/directory 
 cd $WD
  
-OUTPUT_NAME="fireant_RM"
-LIBRARY=$WD/fire_ant/fire_ant-families.fa
+OUTPUT_NAME="yellow_crazy_ant_RM"
+LIBRARY=$WD/yellow_crazy_ant-families.fa
 GENOME=$WD/fire_ant/GCF_047496725.1_ASM4749672v1_genomic.fna
  
 $PATH_TO_CONTAINER/dfam-tetools.sh --singularity -- \
@@ -140,7 +139,7 @@ sbatch generateSeedAlign.sh
 
 ```
 #!/bin/bash
-#SBATCH --job-name=generateSeed_fire_ant
+#SBATCH --job-name=generateSeed_yellow_crazy_ant
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 16
@@ -157,12 +156,12 @@ PATH_TO_CONTAINER=/path/to/your/dfam-tetools-script
 WD=/path/to/your/working/directory 
 cd $WD
  
-STK_OUTPUT=$WD/fire_ant/stk
-GENOME=$WD/fire_ant/GCF_047496725.1_ASM4749672v1_genomic.2bit
-ALIGN=$WD/fire_ant/fireant_RM/GCF_047496725.1_ASM4749672v1_genomic.fna.align
+STK_OUTPUT=$WD/yellow_crazy_ant/stk
+GENOME=$WD/yellow_crazy_ant/GCF_047496725.1_ASM4749672v1_genomic.2bit
+ALIGN=$WD/yellow_crazy_ant/yellow_crazy_ant_RM/GCF_047496725.1_ASM4749672v1_genomic.fna.align
  
 $PATH_TO_CONTAINER/dfam-tetools.sh--singularity -- \
-    /opt/RepeatModeler/util/generateSeedAlignments.pl -taxon "Solenopsis invicta" -assemblyFile ${GENOME} ${ALIGN}
+    /opt/RepeatModeler/util/generateSeedAlignments.pl -taxon "Anoplolepis gracilipes" -assemblyFile ${GENOME} ${ALIGN}
 ```
 
 You will need to specify the working directory, where to put the stk (`.stk` Stockholm alignment) file output (`STK_OUTPUT`), the genome (`GENOME`), the location of the `.align` output from `RepeatMasker` (`ALIGN`). You will also need to update the `-taxon` option passed to the `generateSeedAlignments.pl` program. 
@@ -178,7 +177,7 @@ sbatch extendSeedAlignments.sh
 
 ```
 #!/bin/bash
-#SBATCH --job-name=ramExtend_fire_ant
+#SBATCH --job-name=ramExtend_yellow_crazy_ant
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 16
@@ -192,9 +191,9 @@ sbatch extendSeedAlignments.sh
  
 PATH_TO_CONTAINER=/path/to/your/dfam-tetools-script
 $PATH_TO_CONTAINER/dfam-tetools.sh --singularity -- bash -c '
-STK_OUTPUT=$WD/fire_ant/stk
-EXTENDED_STK=$WD/fire_ant/stk/extended
-GENOME=$WD/fire_ant/GCF_047496725.1_ASM4749672v1_genomic.2bit
+STK_OUTPUT=$WD/yellow_crazy_ant/stk
+EXTENDED_STK=$WD/yellow_crazy_ant/stk/extended
+GENOME=$WD/yellow_crazy_ant/GCF_047496725.1_ASM4749672v1_genomic.2bit
  
 for infile in ${STK_OUTPUT}/*.stk
 do
@@ -222,7 +221,7 @@ sbatch linup.sh
 
 ```
 #!/bin/bash
-#SBATCH --job-name=linup_fire_ant
+#SBATCH --job-name=linup_yellow_crazy_ant
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 16
@@ -236,8 +235,8 @@ sbatch linup.sh
 
 PATH_TO_CONTAINER=/path/to/your/dfam-tetools-script
 $PATH_TO_CONTAINER/dfam-tetools.sh --singularity -- bash -c '
-EXTENDED_STK=$WD/fire_ant/stk/extended
-CONSENSUS_ELEMENTS=$WD/fire_ant/stk/extended/con_elements
+EXTENDED_STK=$WD/yellow_crazy_ant/stk/extended
+CONSENSUS_ELEMENTS=$WD/yellow_crazy_ant/stk/extended/con_elements
 
 mkdir -p $WD/stk/extended/con_elements
 
@@ -265,7 +264,7 @@ sbatch alignAndCallCon.sh
 
 ```
 #!/bin/bash
-#SBATCH --job-name=alignAndCall_fire_ant
+#SBATCH --job-name=alignAndCall_yellow_crazy_ant
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 16
@@ -280,7 +279,7 @@ sbatch alignAndCallCon.sh
 PATH_TO_CONTAINER=/path/to/your/dfam-tetools-script
 
 $PATH_TO_CONTAINER/dfam-tetools.sh --singularity -- bash -c '
-CONSENSUS_ELEMENTS=$WD/fire_ant/stk/extended/con_elements
+CONSENSUS_ELEMENTS=$WD/yellow_crazy_ant/stk/extended/con_elements
 
 for infile in ${CONSENSUS_ELEMENTS}/*.con.fa
 do
@@ -305,13 +304,13 @@ Depending on how all the programs are run, files for all of the models may all b
 ```
 #!/usr/bin/bash
 WD=/path/to/your/working/directory
-input_dir="$WD/fire_ant/stk/extended/con_elements/"
+input_dir="$WD/yellow_crazy_ant/stk/extended/con_elements/"
 
 # The directory you want to move files from
-DIR1="$WD/fire_ant/stk/extended/con_elements/"
+DIR1="$WD/yellow_crazy_ant/stk/extended/con_elements/"
 
 # Output base directory
-out_base="$WD/fire_ant"
+out_base="$WD/yellow_crazy_ant"
 
 mkdir -p "$out_base"
 
