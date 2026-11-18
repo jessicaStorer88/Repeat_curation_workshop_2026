@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=modeler_fire
+#SBATCH --job-name=modeler_yellow_crazy_ant
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 16
@@ -17,7 +17,7 @@ WD=/path/to/your/working/directory
 cd $WD
 
 GENOME=GCF_047496725.1_ASM4749672v1_genomic.fna
-DB=fire_ant
+DB=yellow_crazy_ant
 
 # Step 1: build the database
 $PATH_TO_CONTAINER/dfam-tetools.sh --singularity -- \
