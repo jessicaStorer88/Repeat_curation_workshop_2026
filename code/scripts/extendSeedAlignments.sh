@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=ramExtend_fire_ant
+#SBATCH --job-name=ramExtend_yellow_crazy_ant
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 16
@@ -13,9 +13,9 @@
 
 PATH_TO_CONTAINER=/path/to/your/dfam-tetools-script
 $PATH_TO_CONTAINER/dfam-tetools.sh --singularity -- bash -c '
-STK_OUTPUT=$WD/fire_ant/stk
-EXTENDED_STK=$WD/fire_ant/stk/extended
-GENOME=$WD/fire_ant/GCF_047496725.1_ASM4749672v1_genomic.2bit
+STK_OUTPUT=$WD/yellow_crazy_ant/stk
+EXTENDED_STK=$WD/yellow_crazy_ant/stk/extended
+GENOME=$WD/yellow_crazy_ant/GCF_047496725.1_ASM4749672v1_genomic.2bit
 
 for infile in ${STK_OUTPUT}/*.stk
 do
