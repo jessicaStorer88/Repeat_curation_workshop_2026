@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=generateSeed_fire_ant
+#SBATCH --job-name=generateSeed_yellow_crazy_ant
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 16
@@ -16,9 +16,9 @@ PATH_TO_CONTAINER=/path/to/your/dfam-tetools-script
 WD=/path/to/your/working/directory 
 cd $WD
 
-STK_OUTPUT=$WD/fire_ant/stk
-GENOME=$WD/fire_ant/GCF_047496725.1_ASM4749672v1_genomic.2bit
-ALIGN=$WD/fire_ant/fireant_RM/GCF_047496725.1_ASM4749672v1_genomic.fna.align
+STK_OUTPUT=$WD/yellow_crazy_ant/stk
+GENOME=$WD/yellow_crazy_ant/GCF_047496725.1_ASM4749672v1_genomic.2bit
+ALIGN=$WD/yellow_crazy_ant/yellow_crazy_ant_RM/GCF_047496725.1_ASM4749672v1_genomic.fna.align
 
 $PATH_TO_CONTAINER/dfam-tetools.sh--singularity -- \
-    /opt/RepeatModeler/util/generateSeedAlignments.pl -taxon "Solenopsis invicta" -assemblyFile ${GENOME} ${ALIGN}
+    /opt/RepeatModeler/util/generateSeedAlignments.pl -taxon "Anoplolepis gracilipes" -assemblyFile ${GENOME} ${ALIGN}
