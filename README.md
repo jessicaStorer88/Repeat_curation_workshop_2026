@@ -1,6 +1,6 @@
 # Repeat curation workshop 2026
 
-This GitHub repository is dedicated to materials related to the workshop: 
+This GitHub repository was dedicated to materials related to the workshop: 
 
 [Curating transposable element libraries for non-model organisms and assembling through the hard stuff](https://cba.anu.edu.au/news-events/events/curating-transposable-element-libraries-non-model-organisms-and-assembling)
 
@@ -12,7 +12,7 @@ This GitHub repository is dedicated to materials related to the workshop:
   - Jan Anderson Seminar Room (ground floor).
   - Research School of Biology, Australian National University, Canberra.
 
-## How is this respository organized
+## How is this repository organized
 
 This repository is set up for easy access to the content that will be discussed throughout the workshop. In the following folders you'll find:
 - [`main/`](main/) folder: general content of the workshop, schematics, pipeline descriptions.
@@ -22,61 +22,6 @@ This repository is set up for easy access to the content that will be discussed 
 - [`resources/`](resources/img): figures/schematics used in the repository. Also, helpful for ease of downloading or viewing.
 - [`test/`](test/): instructions and files for testing the container installation
 - [`data/`](data/): [data organization](data/data.md) for files related to the workshop 
-
-## Before we start
-
-- All participants will get a [temporary UCONN HPC](HPC_SETUP.md) account to follow along with the live demos of the workshop. 
-  - Log-ins will be provided to each participant and details will be shared over email.
-- We are running all the curation pipeline with the [TE Tools container](https://github.com/Dfam-consortium/TETools). You can find in the [TE_tools_container folder](TE_tools_container) the instructions on how to download the TE tools container, which hosts all the necessary tools we will be using.
-- Each account contains the container and data generated for this workshop. 
-  - This will be set up for you in the UCONN HPC, however, we are also giving you information to have it working on your own.
-
-
-## Agenda
-
-- The [workshop agenda](./main/agenda.md) is a general outline for the two day workshop, with the breakdown of sections and what will be covered
-- Two days, 9:30 am to 4:00 pm. Day 1 opens with two 30-minute guest talks on genome assemblies. About 3 hours are talks and demos, and 5.5 hours are hands-on work, including about 2.5 hours for participants to curate their own datasets.
-
-> :warning: Please note, this may be subject to minor changes :warning: 
-
-### Day 1: Foundations and getting to the edges
-
-At a glance, talks on genome assemblies, big picture and goals, discussion of [programs, utilities, extending models](programs/README.md), first pass on your own data.
-
-| **Time**                 | **Duration** | **Details** |
-|--------------------------|:-------------|:----------|
-| **9:30 AM to 9:50 AM**   | 20 min | Welcome and setup check | 
-| **9:50 AM to 10:20 AM**  | 25 min talk + 5 min questions | Genome assemblies: Rachel O'Neill | 
-| **10:20 AM to 10:50 AM** | 25 min talk + 5 min questions | Genome assembly approaches: Merly Escalona  | 
-| **10:50 AM to 11:05 AM** | 15 min | Break |  
-| **11:05 AM to 11:40 AM** | 35 min | The Big Picture  | 
-| **11:40 AM to 12:00 PM** | 20 min | The Programs: `RepeatModeler2` and `RepeatMasker`  | 
-| **12:00 PM to 1:00 PM**  | 60 min | Lunch  | 
-| **1:00 PM to 1:10 PM**   | 10 min | Warm-up survey  | 
-| **1:10 PM to 1:30 PM**   | 20 min | Understanding `RepeatModeler2` and `RepeatMasker` output  | 
-| **1:30 PM to 2:30 PM**   | 60 min | The curation toolkit and getting to the edges (DEMO) | 
-| **2:30 PM to 2:45 PM**   | 15 min | Break  | 
-| **2:45 PM to 3:30 PM**   | 45 min | Guided practice on practice families | 
-| **3:30 PM to 3:50 PM**   | 20 min | Your data: curation kickoff | 
-| **3:50 PM to 4:00 PM**   | 10 min | Day 1 wrap-up | 
-
-### Day 2: Quality control, classification, and your own data
-
-At a glance we will be discussing: QC and visualization, classification and redundancy, `blastx` for autonomous TEs, automatic TE curation pipelines, curation studio.
-
-| **Time**                 | **Duration** | **Details** | 
-|--------------------------|:----------|:----------|
-| **9:30 AM to 10:00 AM**   | 30 min | Recap and questions   |
-| **10:00 AM to 10:30 AM**  | 30 min | Classification and reducing redundancy   | 
-| **10:30 AM to 10:45 AM** | 15 min | Break   |
-| **10:45 AM to 11:45 AM**  | 60 min | Curation demo   | 
-| **11:45 PM to 12:00 PM**  | 15 min | Applying the scripts to your data   |
-| **12:00 PM to 12:15 PM**  | 15 min | Automation   |
-| **12:15 PM to 1:15 PM**  | 60 min | Lunch   |
-| **1:15 PM to 2:15 PM**   | 60 min | Curation studio   | 
-| **2:15 PM to 2:30 PM**   | 15 min | Break | 
-| **2:30 PM to 3:30 PM**   | 60 min | Curation studio, part 2   | 
-| **3:30 PM to 4:00 PM**   | 30 min | Wrap-up and discussion   |  
 
 ## Funding
 
