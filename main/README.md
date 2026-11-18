@@ -44,7 +44,7 @@ Curation is an iterative process (<b>Figure 3</b>), as you begin to investigate 
 </div>
 
 <p align="center">
-<b>Figure 3. Detailed TE curation workflow. </b>Note that the pairwise alignment program is crossmatch in the figure. `rmblast.pl` is the program that is used for pairwise comparison in our workflow.
+<b>Figure 3. Detailed TE curation workflow. </b>Note that the pairwise alignment program is crossmatch in the figure. ```rmblast.pl``` is the program that is used for pairwise comparison in our workflow.
 </p>
 <br>
 
