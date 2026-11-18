@@ -222,7 +222,7 @@ done
  
 You will need to change the `STK_OUTPUT` (output from the previous step), `EXTENDED_STK` (output of the program), and `GENOME` parameters passed to the `extend-stk.pl` program.
 
-> **Note** that there is a difference with the other scripts and this one in how the `dfam-tetools` container is called. On the mantis cluster, there is a limit to how many times a user can pull a singularity image. By calling the container in this way, you only pull the image once. 
+> **Note** that there is a difference with the other scripts and this one in how the `dfam-tetools` container is called. Depending upon your cluster, there could be a limit to how many times a user can pull a singularity image. By calling the container in this way, you only pull the image once. 
 
 ## 5. Get `FASTA` consensus and elements
 
