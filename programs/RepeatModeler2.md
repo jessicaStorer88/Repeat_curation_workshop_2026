@@ -77,10 +77,18 @@ rmblast.pl <model-extended.con.fa> <model-extended.con.fa>
 - `-a` to print out the alignment(s)
 
 #### `extendFlankingSeqs.pl`
+```extendFlankingSeqs.pl``` - Appends additional sequence to the ends of your TE instances. This is needed if your model needs to be extended. 
 
 ```
-extendFlankingSeqs.pl -d <genome.2bit> -i <.out> -o <rename.elements.fa> -f <int>
+extendFlankingSeqs.pl -d <genome.2bit> -i <model.out> -o <rename.elements.fa> -f <int>
 ```
+
+- ```-d``` requires the 2bit genome file 
+- ```-i``` specifies .out file 
+- ```-o``` specifies the renamed elements .fa file 
+- ```-f``` user-defined number of how many bases to be appended on both 5' and 3'
+ - ```-r``` only appends on the 3'. Can be used instead of ```-f``` 
+ - ```-l``` only appends on the 5'. Can be used instead of ```-f``` 
 
 #### `AutoRunBlocker.pl`
 
