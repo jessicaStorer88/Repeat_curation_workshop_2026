@@ -2,8 +2,6 @@
 
 We use the Dfam TETools container (`RepeatMasker`, `RepeatModeler2`, `FamDB`, `RMBlast`, UCSC tools). Do these steps before the workshop. The image is a public download of about 1.2 GB, so allow a few GB of free disk space. Image name: **dfam/tetools:2.01**
 
-When tested using a [temporary UCONN account](../HPC_SETUP.md), this process takes ~15 minutes.
-
 ## Mac laptop
 
 1. Install [Homebrew](https://brew.sh/) (`./brew.sh`), then: `brew install colima docker`
@@ -42,7 +40,6 @@ apptainer shell --cleanenv -B "$PWD":/work --pwd /work dfam-tetools.sif
 ## Cluster (Linux/Unix, no root needed)
 
 1. Find the tool: `module avail singularity apptainer`, then `module load singularity` (or apptainer). If neither exists, ask your admins.
-<b>NOTE</b>: If you are using the mantis/UCONN cluster, this step is unnecessary.
 
 2. Keep the cache out of your home directory (use `APPTAINER_CACHEDIR` if your cluster has Apptainer), then pull the image:
 
